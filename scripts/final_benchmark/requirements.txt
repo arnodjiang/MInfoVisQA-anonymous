@@ -1,0 +1,5 @@
+-r ../../skills/multilingual-visual-benchmark/requirements.txt
+# Selection and provenance construction from the pinned Parquet sources.
+pyarrow==21.0.0
+# Optional scripts/load_local.py convenience loader.
+datasets==4.5.0

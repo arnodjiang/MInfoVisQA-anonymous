@@ -1,0 +1,141 @@
+{
+  "title": "MVisQA validation record v1",
+  "type": "object",
+  "required": [
+    "id",
+    "base_id",
+    "case_id",
+    "query",
+    "answer",
+    "image_path",
+    "query_language",
+    "image_language",
+    "answer_language",
+    "source",
+    "answer_type",
+    "configuration",
+    "image_sha256",
+    "code_path",
+    "split",
+    "difficulty",
+    "chart_types",
+    "visual_kind",
+    "features",
+    "table_structure",
+    "audit",
+    "split_group_keys"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "base_id": {
+      "type": "string"
+    },
+    "case_id": {
+      "type": "string"
+    },
+    "query": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "string"
+    },
+    "image_path": {
+      "type": "string"
+    },
+    "query_language": {
+      "type": "string"
+    },
+    "image_language": {
+      "type": "string"
+    },
+    "answer_language": {
+      "type": "string"
+    },
+    "source": {
+      "type": "string"
+    },
+    "answer_type": {
+      "type": "string"
+    },
+    "configuration": {
+      "type": "string"
+    },
+    "image_sha256": {
+      "type": "string"
+    },
+    "code_path": {
+      "type": "string"
+    },
+    "split": {
+      "const": "validation"
+    },
+    "difficulty": {
+      "type": "object",
+      "required": [
+        "label",
+        "rationale"
+      ],
+      "properties": {
+        "label": {
+          "enum": [
+            "easy",
+            "medium",
+            "hard",
+            "unknown"
+          ]
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "chart_types": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "visual_kind": {
+      "enum": [
+        "chart",
+        "table"
+      ]
+    },
+    "features": {
+      "type": "object"
+    },
+    "table_structure": {
+      "type": [
+        "object",
+        "null"
+      ]
+    },
+    "audit": {
+      "type": "object",
+      "required": [
+        "status",
+        "human_verified"
+      ],
+      "properties": {
+        "status": {
+          "enum": [
+            "accepted",
+            "needs_review"
+          ]
+        },
+        "human_verified": {
+          "const": false
+        }
+      }
+    },
+    "split_group_keys": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "kind": "table",
+  "base_id": "synthetic-table-001",
+  "source_language": "en",
+  "source": {
+    "origin": "synthetic-authored-example"
+  },
+  "data": {
+    "rows": [
+      [
+        {
+          "text": "Product",
+          "label_key": "product",
+          "rowspan": 2
+        },
+        {
+          "text": "Revenue",
+          "label_key": "revenue",
+          "colspan": 2
+        }
+      ],
+      [
+        {
+          "text": "2001"
+        },
+        {
+          "text": "2002"
+        }
+      ],
+      [
+        {
+          "text": "Diapers",
+          "label_key": "diapers"
+        },
+        {
+          "text": "2.0"
+        },
+        {
+          "text": "3.0"
+        }
+      ]
+    ]
+  },
+  "labels": {
+    "product": "Product",
+    "revenue": "Revenue",
+    "diapers": "Diapers"
+  },
+  "qas": {
+    "q1": {
+      "question": "What is [[diapers]] revenue in 2002?",
+      "answer": "3.0"
+    }
+  },
+  "recovery": {
+    "method": "synthetic_source_cells",
+    "review_status": "example_only"
+  }
+}

@@ -1,0 +1,54 @@
+\begin{table*}[t]
+\centering
+\small
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.12}
+\begin{tabularx}{\textwidth}{@{}p{0.18\textwidth}c
+  >{\raggedright\arraybackslash}p{0.16\textwidth}
+  >{\raggedright\arraybackslash}X
+  >{\raggedright\arraybackslash}X@{}}
+\toprule
+Benchmark & Lang. & Visual scope & Multilingual construction & Language protocol \\
+\midrule
+MTVQA\newline
+& 9 & Documents and scene text
+& Native images and expert-written QA; different content across languages.
+& QA in the corresponding language; no matched visual translation and rendering. \\
+\addlinespace[3pt]
+XT-VQA\newline
+& 3 & Charts, documents, and scene text
+& Translated questions over retained images; EN/ZH paper subsets.
+& Aligned and mismatched question--image languages; answer language is not scored. \\
+\addlinespace[3pt]
+SMPQA\newline
+& 11 & Synthetic bar and pie charts
+& Matched plot structures with labels sampled from language-specific word lists.
+& EN question templates; label grounding and reading in the visual language. \\
+\addlinespace[3pt]
+PM$^{4}$Bench\newline
+& 10 & General VQA, OCR, and GUI
+& Parallel task content; multilingual text rendered into images in the vision setting.
+& Traditional versus vision input; no systematic EN/ZH pivot sweep reported. \\
+\addlinespace[3pt]
+PolyChartQA\newline
+& 10 & Charts
+& Joint chart-data and QA translation; shared rendering code.
+& Aligned inputs and cross-lingual experiments replacing either image or QA with EN. \\
+\midrule
+\textbf{MStructQA (ours)}
+& \textbf{24} & \textbf{Charts and table images}
+& Matched source QA with translated visuals and QA; retained source IDs and rendering code.
+& 24 aligned + 23 ZH-pivot + 23 EN-pivot configurations per base QA; answer language follows the question. \\
+\bottomrule
+\end{tabularx}
+\caption{Comparison with closely related multilingual visual benchmarks.
+Lang. counts the languages in the compared benchmark protocol, not a model's
+training languages; SMPQA counts plot-label languages. XT-VQA uses three
+question languages in its main benchmark and additional languages in a
+diagnostic analysis. EN and ZH denote English and Chinese. Our current release
+contains 128 base questions, 3,072 translated visuals, and 8,960 configurations
+($128\times70$); these configurations are correlated variants, not independent
+source questions. The comparison describes dataset design rather than a
+ranking of annotation quality.}
+\label{tab:benchmark-comparison}
+\end{table*}

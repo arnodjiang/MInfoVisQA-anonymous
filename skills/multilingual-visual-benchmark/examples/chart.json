@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "kind": "chart",
+  "base_id": "synthetic-chart-001",
+  "source_language": "en",
+  "source": {
+    "origin": "synthetic-authored-example"
+  },
+  "renderer": "chart_adapter.py",
+  "data": {
+    "categories": [
+      "stand",
+      "walk"
+    ],
+    "values": [
+      5,
+      8
+    ]
+  },
+  "labels": {
+    "title": "Robot tasks",
+    "stand": "hopper:stand",
+    "walk": "walker:walk"
+  },
+  "qas": {
+    "q1": {
+      "question": "What is the value for [[stand]]?",
+      "answer": "5"
+    }
+  },
+  "recovery": {
+    "method": "synthetic_source_data",
+    "review_status": "example_only"
+  }
+}

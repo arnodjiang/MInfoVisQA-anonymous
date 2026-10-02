@@ -1,0 +1,34 @@
+{
+  "languages": {
+    "en": "English",
+    "zh": "Simplified Chinese",
+    "ja": "Japanese",
+    "ko": "Korean",
+    "fr": "French",
+    "de": "German",
+    "es": "Spanish",
+    "pt": "Portuguese",
+    "ru": "Russian",
+    "ar": "Arabic",
+    "hi": "Hindi",
+    "it": "Italian",
+    "nl": "Dutch",
+    "pl": "Polish",
+    "tr": "Turkish",
+    "vi": "Vietnamese",
+    "id": "Indonesian",
+    "th": "Thai",
+    "sw": "Swahili",
+    "fa": "Persian",
+    "ur": "Urdu",
+    "bn": "Bengali",
+    "ta": "Tamil",
+    "te": "Telugu"
+  },
+  "cross_language_query_languages": [
+    "zh",
+    "en"
+  ],
+  "answer_policy": "same as query",
+  "configurations_per_base_qa": 70
+}

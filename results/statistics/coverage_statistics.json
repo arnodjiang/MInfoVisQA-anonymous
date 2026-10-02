@@ -1,0 +1,139 @@
+{
+  "source": "data/benchmark/validation_release/val.candidates.jsonl",
+  "unit": "unique English-aligned seed QA",
+  "counts": {
+    "Tables": 40,
+    "Line graphs": 34,
+    "Bars & lollipops": 15,
+    "Composite visuals": 14,
+    "Matrices & heatmaps": 6,
+    "Pie & area charts": 6,
+    "Distribution plots": 5,
+    "Scatter & bubble plots": 4,
+    "Field & phase plots": 4
+  },
+  "groups": {
+    "Tables": [
+      "Simple Table",
+      "Column-Spanning Table",
+      "Mixed-Spanning Table",
+      "Row-Spanning Table"
+    ],
+    "Line graphs": [
+      "Multi-Series Line Graph",
+      "Line Graph with Uncertainty Bands",
+      "Line Graph",
+      "Line Graph with Error Bars"
+    ],
+    "Bars & lollipops": [
+      "Grouped Bar Chart",
+      "Stacked Bar Chart",
+      "Horizontal Bar Chart",
+      "Diverging Bar Chart",
+      "Vertical Bar Chart",
+      "Lollipop Chart"
+    ],
+    "Composite visuals": [
+      "Mixed Chart",
+      "Bar-Line Combination Chart",
+      "Chart-Table Composite",
+      "Table-Diagram Composite"
+    ],
+    "Matrices & heatmaps": [
+      "Heatmap",
+      "Confusion Matrix",
+      "Correlation Matrix"
+    ],
+    "Pie & area charts": [
+      "Pie Chart",
+      "Area Chart"
+    ],
+    "Distribution plots": [
+      "Cumulative Distribution Plot",
+      "Density Plot",
+      "Histogram"
+    ],
+    "Scatter & bubble plots": [
+      "Scatter Plot",
+      "Scatter Plot with Error Bars",
+      "Bubble Chart"
+    ],
+    "Field & phase plots": [
+      "Phase Diagram",
+      "3D Streamline Plot",
+      "Contour Plot"
+    ]
+  },
+  "configurations": {
+    "EN/EN": 128,
+    "ZH/EN": 128,
+    "EN/ZH": 128,
+    "ZH/ZH": 128,
+    "EN/JA": 128,
+    "JA/JA": 128,
+    "ZH/JA": 128,
+    "EN/KO": 128,
+    "KO/KO": 128,
+    "ZH/KO": 128,
+    "EN/FR": 128,
+    "FR/FR": 128,
+    "ZH/FR": 128,
+    "DE/DE": 128,
+    "EN/DE": 128,
+    "ZH/DE": 128,
+    "EN/ES": 128,
+    "ES/ES": 128,
+    "ZH/ES": 128,
+    "EN/PT": 128,
+    "PT/PT": 128,
+    "ZH/PT": 128,
+    "EN/RU": 128,
+    "RU/RU": 128,
+    "ZH/RU": 128,
+    "AR/AR": 128,
+    "EN/AR": 128,
+    "ZH/AR": 128,
+    "EN/HI": 128,
+    "HI/HI": 128,
+    "ZH/HI": 128,
+    "EN/IT": 128,
+    "IT/IT": 128,
+    "ZH/IT": 128,
+    "EN/NL": 128,
+    "NL/NL": 128,
+    "ZH/NL": 128,
+    "EN/PL": 128,
+    "PL/PL": 128,
+    "ZH/PL": 128,
+    "EN/TR": 128,
+    "TR/TR": 128,
+    "ZH/TR": 128,
+    "EN/VI": 128,
+    "VI/VI": 128,
+    "ZH/VI": 128,
+    "EN/ID": 128,
+    "ID/ID": 128,
+    "ZH/ID": 128,
+    "EN/TH": 128,
+    "TH/TH": 128,
+    "ZH/TH": 128,
+    "EN/SW": 128,
+    "SW/SW": 128,
+    "ZH/SW": 128,
+    "EN/FA": 128,
+    "FA/FA": 128,
+    "ZH/FA": 128,
+    "EN/UR": 128,
+    "UR/UR": 128,
+    "ZH/UR": 128,
+    "BN/BN": 128,
+    "EN/BN": 128,
+    "ZH/BN": 128,
+    "EN/TA": 128,
+    "TA/TA": 128,
+    "ZH/TA": 128,
+    "EN/TE": 128,
+    "TE/TE": 128,
+    "ZH/TE": 128
+  }
+}

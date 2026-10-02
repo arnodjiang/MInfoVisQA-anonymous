@@ -1,0 +1,77 @@
+\begin{table*}[t]
+  \centering
+  \begingroup
+  \scriptsize
+  \setlength{\tabcolsep}{0pt}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}c*{27}{c}@{}}
+    \toprule
+    \multirow{2}{*}{\textbf{Model}}
+      & \multicolumn{2}{c}{\textbf{XQA}}
+      & \multicolumn{24}{c}{\textbf{LQA}}
+      & \multirow{2}{*}{\textbf{AVG}} \\
+    \cmidrule(lr){2-3}\cmidrule(lr){4-27}
+      & ZH & EN
+      & EN & ZH & JA & KO & FR & DE & ES & PT
+      & RU & AR & HI & IT & NL & PL & TR & VI
+      & ID & TH & SW & FA & UR & BN & TA & TE
+      & \\
+    \midrule
+    \shortstack[l]{GPT-6-Astra}
+      & 80.3 & 82.5
+      & 86.7 & 85.2 & 83.6 & 84.4
+      & 82.8 & 84.4 & 82.8 & 82.0
+      & 84.4 & 82.0 & 79.7 & 84.4
+      & 84.4 & 83.6 & 82.0 & 83.6
+      & 82.0 & 81.2 & 85.2 & 82.8
+      & 79.7 & 82.0 & 81.2 & 77.3
+      & 81.9 \\
+    \shortstack[l]{GPT-5.6-Sol}
+      & 77.5 & 78.7
+      & 81.2 & 79.7 & 81.2 & 78.1
+      & 81.2 & 80.5 & 80.5 & 78.1
+      & 78.9 & 78.1 & 80.5 & 78.1
+      & 80.5 & 80.5 & 79.7 & 78.9
+      & 78.9 & 77.3 & 78.9 & 78.1
+      & 77.3 & 78.1 & 74.2 & 70.3
+      & 78.3 \\
+    \shortstack[l]{Gemini-3.8-Flash}
+      & 78.1 & 81.3
+      & 82.8 & 78.1 & 80.5 & 82.8
+      & 83.6 & 79.7 & 80.5 & 80.5
+      & 84.4 & 78.1 & 82.8 & 81.2
+      & 81.2 & 78.1 & 79.7 & 84.4
+      & 80.5 & 79.7 & 78.9 & 79.7
+      & 77.3 & 80.5 & 76.6 & 77.3
+      & 79.9 \\
+    \shortstack[l]{gpt-5.6-luna}
+      & 73.7 & 73.3
+      & 79.7 & 74.2 & 74.2 & 76.6
+      & 76.6 & 78.1 & 75.8 & 77.3
+      & 75.0 & 75.8 & 74.2 & 77.3
+      & 77.3 & 81.2 & 77.3 & 80.5
+      & 77.3 & 73.4 & 75.8 & 72.7
+      & 69.5 & 70.3 & 73.4 & 53.1
+      & 74.0 \\
+    \shortstack[l]{gpt-5.5}
+      & 71.8 & 75.5
+      & 79.7 & 73.4 & 77.3 & 79.7
+      & 78.9 & 75.0 & 74.2 & 76.6
+      & 78.1 & 75.0 & 74.2 & 78.9
+      & 74.2 & 77.3 & 75.8 & 80.5
+      & 75.0 & 71.1 & 74.2 & 73.4
+      & 70.3 & 70.3 & 68.8 & 61.7
+      & 74.0 \\
+    \bottomrule
+  \end{tabular*}
+  \endgroup
+  \caption{Accuracy (\%, $\uparrow$) on MInfoVisQA.
+  \textbf{XQA} (cross-language QA): ZH/EN denotes the question and answer
+  language, macro-averaged over the other 23 visual languages.
+  \textbf{LQA} (language-aligned QA): each column uses the indicated language
+  for the visual, question, and answer.
+  \textbf{AVG} is the macro-average over all 70 distinct configurations.
+  Exact matches are accepted directly; remaining answers are judged for
+  equivalence by GPT-6 Astra using text only.
+  Unconfirmed equivalence and failed requests count as incorrect.}
+  \label{tab:mstructqa-main}
+\end{table*}

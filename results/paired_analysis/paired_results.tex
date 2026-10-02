@@ -1,0 +1,18 @@
+\begin{table*}[t]
+\centering
+\small
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lrrrrrrrr@{}}
+\toprule
+\multirow{2}{*}{Model} & \multicolumn{2}{c}{Charts $\Delta$ACC} & \multicolumn{2}{c}{Tables $\Delta$ACC} & \multicolumn{2}{c}{Correct$\to$Wrong} & \multicolumn{2}{c}{Wrong$\to$Correct} \\
+\cmidrule(lr){2-3}\cmidrule(lr){4-5}\cmidrule(lr){6-7}\cmidrule(lr){8-9}
+& EN & ZH & EN & ZH & EN & ZH & EN & ZH \\
+\midrule
+GPT-6 Astra & -2.7 & -2.2 & -7.4 & -10.3 & 4.5 & 6.4 & 0.3 & 1.6 \\
+Gemini-3.8-Flash & -1.2 & +1.3 & -2.2 & -3.0 & 3.2 & 2.9 & 1.7 & 2.9 \\
+GPT-5.6-Sol & -2.2 & -1.4 & -3.3 & -3.9 & 4.4 & 6.2 & 1.9 & 4.0 \\
+GPT-5.6-Luna & -4.4 & -0.9 & -10.5 & +0.3 & 8.5 & 6.4 & 2.1 & 5.8 \\
+\bottomrule
+\end{tabular*}
+\caption{Paired sensitivity to visual-language changes. Questions and answers remain in EN or ZH. $\Delta$ACC (percentage points) compares the other 23 visual languages with the same-language baseline, separately for charts ($n=87$) and tables ($n=41$). Both flip rates use all $128\times23$ pairs as their denominator (\%). Failures retain the main-table scoring policy.}
+\label{tab:paired-language-sensitivity}
+\end{table*}

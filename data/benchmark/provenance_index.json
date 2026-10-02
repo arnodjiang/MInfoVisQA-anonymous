@@ -1,0 +1,774 @@
+{
+  "schema": "current_artifacts_only_v1",
+  "cases": {
+    "e525de67b11a063bafc6": {
+      "case_id": "e525de67b11a063bafc6",
+      "original_sample_id": "qa_44706da0ce01f889b5b04fbbaf7cdfd70601312e774069d3d822ab2e535e209a",
+      "source": "CharXiv",
+      "source_record_sha256": "12b96fe7dad9a567d68296df457607e645076d32bb43f085706e779d7cba3fb8"
+    },
+    "3d60f3188bd83b417d5e": {
+      "case_id": "3d60f3188bd83b417d5e",
+      "original_sample_id": "qa_d9927172b36ddfec42f7fadf69948f423ee0fa832c5666bb36d65a1c356506ca",
+      "source": "CharXiv",
+      "source_record_sha256": "3ec796c988a6a829576dcf8852a80614eb7bf6313c644ffab84e6320b3d17032"
+    },
+    "b8d7a6d461d63b21ede5": {
+      "case_id": "b8d7a6d461d63b21ede5",
+      "original_sample_id": "qa_d0b99f4c9cda9d2972a81deecf7302a3955dbcebb5c761453ba25031cd57e4e1",
+      "source": "CharXiv",
+      "source_record_sha256": "efae7eb5a446d4debd64ea9a8a5d6727ffc8ab1f631acb617c14f1c97f4f6911"
+    },
+    "5cbdf061644e84de88eb": {
+      "case_id": "5cbdf061644e84de88eb",
+      "original_sample_id": "qa_1e32ea3db6c2e7a1eadab0e9dc447b15175b24f780035447b41e5ba0fcc1dbf9",
+      "source": "CharXiv",
+      "source_record_sha256": "fb5f9b7e96fe057955fef7386b6de365f5f742fa63c09dbe51fcc8e79f86f8ec"
+    },
+    "a032031022ae8c34ff55": {
+      "case_id": "a032031022ae8c34ff55",
+      "original_sample_id": "qa_612f0bea4fbfb2d2e51949799673904c6d5190ed857939abf6139d075712df16",
+      "source": "CharXiv",
+      "source_record_sha256": "3dd45fe8641cbf9696ab2c77a7b0e03a8267e20be196524c22ae7277169f2cbb"
+    },
+    "ef91d5570ddf4f10896c": {
+      "case_id": "ef91d5570ddf4f10896c",
+      "original_sample_id": "qa_d58c1b3a786021e2457fdedf601e48b5d70fd2b5da7c04adf68394fd2aead72a",
+      "source": "CharXiv",
+      "source_record_sha256": "94974e7aa109b420263a6d3ebe22d184ac79106703bb21406b128295506a35f4"
+    },
+    "e4649a6173c965dce26d": {
+      "case_id": "e4649a6173c965dce26d",
+      "original_sample_id": "qa_493994735be649b53f26d3adea7b0c3649cd0dc0a38f3e724ac5114f7cc4827e",
+      "source": "CharXiv",
+      "source_record_sha256": "4d7a4b498f3f92100807c203c8b132eca1ed0c8b026592beccfa1403876bffdf"
+    },
+    "ec3da0f1c31be820cc61": {
+      "case_id": "ec3da0f1c31be820cc61",
+      "original_sample_id": "qa_1c16e2ffd82acf7a1e9a8fbca52c5bf0ebb3d49e503ef76a3aa568942e4cee66",
+      "source": "CharXiv",
+      "source_record_sha256": "6e783a75527abfe579dfad3c07915b3b991975f03e086017166120bf2a801d11"
+    },
+    "fdb77eea7b046a34a188": {
+      "case_id": "fdb77eea7b046a34a188",
+      "original_sample_id": "qa_c3c5386eca8b887e210df9d7803054f932f0f9252f8ad99afa37cab75543b18f",
+      "source": "CharXiv",
+      "source_record_sha256": "f3f62da3e9f73fa93633ee4af0f22a084b11dacfebd6769767c1abc09cc3315f"
+    },
+    "0feefe120418bb710e9b": {
+      "case_id": "0feefe120418bb710e9b",
+      "original_sample_id": "qa_6a900b4b53bcb526e3ab6ddc71123cc55d7a8cbcd58da6b3410ddf194948f981",
+      "source": "CharXiv",
+      "source_record_sha256": "a95e8ed6382bc44b161178c68bc0f4ac9fc32809d35d8cae3d359d6518265c36"
+    },
+    "ca421dcd85dee3904def": {
+      "case_id": "ca421dcd85dee3904def",
+      "original_sample_id": "qa_5db1349b8f3495df8239fcc1398fa6e47c31a602a3d57a05c5a04653fa9123a9",
+      "source": "CharXiv",
+      "source_record_sha256": "ff04d1c59196bee5c9ebd6cd8bf227514a802999105256a6939c18281f285dae"
+    },
+    "09bb0d004bd2eed54349": {
+      "case_id": "09bb0d004bd2eed54349",
+      "original_sample_id": "qa_522a966191fea9ee1edebfff738fee7a4305b08fecdc56167f85fd15501186af",
+      "source": "CharXiv",
+      "source_record_sha256": "83b34824855114bfb0886cd9aceb1858692dbac065cce0a7fe93d0dca4b26de0"
+    },
+    "6e1be4aaeb71756635da": {
+      "case_id": "6e1be4aaeb71756635da",
+      "original_sample_id": "qa_359c022f45feecfc4e9ca53cef07905fa580d5c0cf2da53f95a42e2faefd980e",
+      "source": "CharXiv",
+      "source_record_sha256": "bff8557b2a32b0e990378a9e7b95c7ffeadfe529dd7c41251cd5e7b374067942"
+    },
+    "659d4312e8d18271430f": {
+      "case_id": "659d4312e8d18271430f",
+      "original_sample_id": "qa_27bd8a003b7c1adb9feb82c09f11649be2bd1cde114ce72fe86e8cb5c8b2de0e",
+      "source": "CharXiv",
+      "source_record_sha256": "6e4f72c1e075f8818acb0ddacdd886fef4ccd45636314c59ff8dba70aeaad0bb"
+    },
+    "890e3b5095b1c36c5886": {
+      "case_id": "890e3b5095b1c36c5886",
+      "original_sample_id": "qa_331b08975bf7cc1c8843dec7967e8712439a201948420b1cb4a4e7ba405fcdaf",
+      "source": "CharXiv",
+      "source_record_sha256": "3126c9b786774b989c9659b313202450f9957b463df0730508b1333159cfb4f1"
+    },
+    "9b4e7f80411b35a73cbc": {
+      "case_id": "9b4e7f80411b35a73cbc",
+      "original_sample_id": "qa_8727b271401b853d788f6bee98d1ceceae72645e29605977e2a0a33cfbed91c6",
+      "source": "CharXiv",
+      "source_record_sha256": "3ad63f1ce1e507e68c28ba5560830bc49297d134b324d3370b148b0d8b24dc27"
+    },
+    "a97c3c13b5f40162dd14": {
+      "case_id": "a97c3c13b5f40162dd14",
+      "original_sample_id": "qa_5a3c19dff716d709429340179a3afecb216c6b6ec126c91f2d481b98ef483d08",
+      "source": "CharXiv",
+      "source_record_sha256": "6bb84e1031418f693cc8210cc0f78ef52d07c2cb634b3ecd39a70902f1b2086f"
+    },
+    "7f9e0f9af72247072e65": {
+      "case_id": "7f9e0f9af72247072e65",
+      "original_sample_id": "qa_abeb65ed1030d6974129a9fc62b6739fa5a0a2fc219eed9ec76f3e52a086a372",
+      "source": "CharXiv",
+      "source_record_sha256": "3287aeee444433ac4f1bbd495113a1df686249eb64552164b00e1561a4447e1f"
+    },
+    "052ef54062001e7a853f": {
+      "case_id": "052ef54062001e7a853f",
+      "original_sample_id": "qa_fb6b4277fc65c602b26437388fdc1fd1b9cb66c2a3046e05f036b54aeabd3a77",
+      "source": "CharXiv",
+      "source_record_sha256": "62eba3bfcdf0cf2b23e7d607a502f70d8b6f459bccde5a998f340e6ca830546b"
+    },
+    "ce3cd691bfbeb2813fd9": {
+      "case_id": "ce3cd691bfbeb2813fd9",
+      "original_sample_id": "qa_1185a5ca7afbf78a4bc967f285c80ce5d1c03a7a7fbf3ecbc757a03962b6cb72",
+      "source": "CharXiv",
+      "source_record_sha256": "3a4f6abb624a0a9133c8b90c97284689cab64431a958767c96f5bfe68bf9e08e"
+    },
+    "0c515d14c641ec4b6d5f": {
+      "case_id": "0c515d14c641ec4b6d5f",
+      "original_sample_id": "qa_b88e9c5fb9d4a74e43e9047b979c6b6e93c65f549f8eceb843d55e200ba9b7c3",
+      "source": "CharXiv",
+      "source_record_sha256": "015998c0f78b5a600d14ee26447d89d992fce7787218cbbf9bb0051201e1d52a"
+    },
+    "cfadf691562200d04818": {
+      "case_id": "cfadf691562200d04818",
+      "original_sample_id": "qa_e27885cae7b5e4e3186a0b38a79dd7d637995a72efc1aeb1b460adc23e9676f1",
+      "source": "CharXiv",
+      "source_record_sha256": "661fd49641cdce350e912b8a00d2633994d4160b6b49a5e001660f84fa046b80"
+    },
+    "d257d2ff1f5867cfaa3f": {
+      "case_id": "d257d2ff1f5867cfaa3f",
+      "original_sample_id": "qa_d01ebff992414f05364be1b1455f16505ba18addb890ed87524c4b563f1f4393",
+      "source": "CharXiv",
+      "source_record_sha256": "e9cd1c2a0d966d225c7f411905d2e3c62f5e60184fc428d93a9eca0c564a3e3b"
+    },
+    "cc7a4a1d899164253751": {
+      "case_id": "cc7a4a1d899164253751",
+      "original_sample_id": "qa_9a8ce4dfa955e8dfc0bbc973529b1086142bb1803fdc3a689e39f6daee20f6e5",
+      "source": "CharXiv",
+      "source_record_sha256": "2cc583dd8dc8d214064c85b47d3dec0fb79c37bf37ebb3e0e4b772433ccdae87"
+    },
+    "2c554fcd49fb533218da": {
+      "case_id": "2c554fcd49fb533218da",
+      "original_sample_id": "qa_c3297d6289a432d94a84133b59627e04c254e0b6b5e32d8c941e5d8c40d5b070",
+      "source": "CharXiv",
+      "source_record_sha256": "c26fa342c4e038a19991022715acd22b1a1644c7fe4029fc327bc6fef24b5439"
+    },
+    "fac5a3ecd43a846a61e5": {
+      "case_id": "fac5a3ecd43a846a61e5",
+      "original_sample_id": "qa_e6b4d347390b9278812395fbf3b6eb869fb4112d07165c21c0b1ba9a5b5cbb39",
+      "source": "CharXiv",
+      "source_record_sha256": "07986a2feac40eb348290a07d70baac6df99914e90862feffb7e345d28dc46c8"
+    },
+    "c0b048a7d55e55fb26f4": {
+      "case_id": "c0b048a7d55e55fb26f4",
+      "original_sample_id": "qa_dee91769207ff382819e9bf0f1cb77d78de61e24f01f29f0db55a7d84fd08d48",
+      "source": "CharXiv",
+      "source_record_sha256": "f9e7f56cd73b799d19dcf2ee101b94f6e3d11c23e6977783c1431838aa6c2003"
+    },
+    "fba277285c66b06c24e3": {
+      "case_id": "fba277285c66b06c24e3",
+      "original_sample_id": "qa_9a96df9bdff65eb0da44fcfe09180ca22b2cb8bc53601bd4c3ee368cea9f136e",
+      "source": "CharXiv",
+      "source_record_sha256": "711ed8aae903ea3764490a316d7ee584aa617d4fdb8c70f77ddcbd7d8c88b3fe"
+    },
+    "992494d15c45b3b2bd34": {
+      "case_id": "992494d15c45b3b2bd34",
+      "original_sample_id": "qa_4559f90c31101a8ad6db0c0b84cbc9ba671450a9eae878f41324bd2d1d208cef",
+      "source": "CharXiv",
+      "source_record_sha256": "22f4e4fe15b0ea7835baa13acb4b702e9c918b34f04ea5e05e87e5429cd4d910"
+    },
+    "355ef63999002c8e8a88": {
+      "case_id": "355ef63999002c8e8a88",
+      "original_sample_id": "qa_7e7e8a5c13f109cfefcf4f5bb9bce9c8560fb3d1ac1f62dbb865651e6e4f8ddb",
+      "source": "CharXiv",
+      "source_record_sha256": "63074c54d8397be13f1cacb4727765328134f25ba575b46f60ab0daceeebe964"
+    },
+    "5e24d7966b2942d2f2d4": {
+      "case_id": "5e24d7966b2942d2f2d4",
+      "original_sample_id": "qa_670f35c763c1d2173d424154187306cf3b650545a547a256e87be2176903bb2f",
+      "source": "CharXiv",
+      "source_record_sha256": "dea74bd743bc609b733e88d57d015cf92a2cc66fd532cda05fc162726941ce82"
+    },
+    "c956813ef506d7ebf442": {
+      "case_id": "c956813ef506d7ebf442",
+      "original_sample_id": "qa_82978150ab8685e5ea36f1cda7f46b043bdfaf4cdde7bf2f1e410abb5536f025",
+      "source": "CharXiv",
+      "source_record_sha256": "ad6c40b5650ee8f68ef2964f93d2656b9ce388a18617e354309bea3c055c1aeb"
+    },
+    "6cc1c307a7246222304b": {
+      "case_id": "6cc1c307a7246222304b",
+      "original_sample_id": "qa_42f90ff127442166df7d386c8b2ec23a5aa86e92a9b3f55b10dd6ad8f643c992",
+      "source": "CharXiv",
+      "source_record_sha256": "e67c8fbdddc91dd9a2ae7a4dd22af899d8998672c55c3d2d9fef2a652333f904"
+    },
+    "04bdfe7722bb349d8e26": {
+      "case_id": "04bdfe7722bb349d8e26",
+      "original_sample_id": "qa_2cc7c7e4958f82e6478967479f61084e5a1e1aab6e81048b45c3ff7839d4e09a",
+      "source": "CharXiv",
+      "source_record_sha256": "729118c7eb8fd6e79ce8c9ecd73e90f7baa5cd9be6b6becb66f09441d8ae8418"
+    },
+    "be5db785dc0325a9a6e7": {
+      "case_id": "be5db785dc0325a9a6e7",
+      "original_sample_id": "qa_555f0b00e2732d35dd4bf32cad9d8c8dfd038d98dc385d2f3d41690de9559127",
+      "source": "CharXiv",
+      "source_record_sha256": "2ca842dbeb544f9bb72fb009cb0cd7c8b51eee343593b602b533311d6eb5138b"
+    },
+    "ef998ed493ef965dbbfa": {
+      "case_id": "ef998ed493ef965dbbfa",
+      "original_sample_id": "qa_c92c443366441a8b24ca56780aa450649b4c58456db7ccb5fe3cbd791a298485",
+      "source": "CharXiv",
+      "source_record_sha256": "1bd8923d96621415d65cbfa5bcab9cdd2c38c3aa7625bd9eb0c85c024b3b7abe"
+    },
+    "5200cb2ddd0e8de2c9e5": {
+      "case_id": "5200cb2ddd0e8de2c9e5",
+      "original_sample_id": "qa_4d714a5767eae7fff059c903b653523cdb2c02cdde76f0a448cc39d0d7a71347",
+      "source": "CharXiv",
+      "source_record_sha256": "692fcff20e4dcdd68b00b2bbc8146c9bb02c50656d6dfb9ad1be8098411a8258"
+    },
+    "a47c0d35b0b7257d362d": {
+      "case_id": "a47c0d35b0b7257d362d",
+      "original_sample_id": "qa_b55ca6b93debd445098bb345f65796fd9f24b13ad68bcda809d3888b239e50a5",
+      "source": "CharXiv",
+      "source_record_sha256": "ab7aa36833347b9b7287f11064087b10bf6b0d011b19ffb7369f3d7ada563d89"
+    },
+    "e9862f967583ff461a6b": {
+      "case_id": "e9862f967583ff461a6b",
+      "original_sample_id": "qa_e9d39401ce3878c59b3a6dca2345679485a8c5cf2d2230158c6279a874fcce5f",
+      "source": "CharXiv",
+      "source_record_sha256": "d6d9455bd02637d8810c12f59d6bd036d2392535b8cffc30eb0d87943ecb7fc6"
+    },
+    "db05618028464780502f": {
+      "case_id": "db05618028464780502f",
+      "original_sample_id": "qa_54b0f0f679a1792b001f4ea1381ad9c5bc7b3cb1eea0b693f2c8c9fb991598c8",
+      "source": "CharXiv",
+      "source_record_sha256": "7ccbf95e1293312ab4580a827eaa9435f7f1f66c49b33c8f03e735f6b5ac3dbf"
+    },
+    "d9fa947d8d75a8e6888b": {
+      "case_id": "d9fa947d8d75a8e6888b",
+      "original_sample_id": "qa_1fb92c0e2f6ab76f933971d967261a99d261cb98356947d415bd8220cdfe8326",
+      "source": "CharXiv",
+      "source_record_sha256": "ade49fd526cdd7ab73175670a8671dc869c8c9136d896e550e3c2821c27f5991"
+    },
+    "df6114bb431467d641f5": {
+      "case_id": "df6114bb431467d641f5",
+      "original_sample_id": "qa_c7f0ac4441285dc9145b2d36c1c6c6d39edf891eb8f2779e66c6d88bc564d017",
+      "source": "CharXiv",
+      "source_record_sha256": "a2c488e1478b3b42de749294b3352f5cefb6a6e694198627cf7250e3bd0f91a8"
+    },
+    "d289bd54918affd68074": {
+      "case_id": "d289bd54918affd68074",
+      "original_sample_id": "qa_96903d38b54e7902b140912023f2304b13015daf72e95b1dbe3d93018526a883",
+      "source": "CharXiv",
+      "source_record_sha256": "7d947253b4c87f5d181c2dbafb05984be5980d45d46a024d1d4d87f54b85821b"
+    },
+    "9486f664f08b652b987e": {
+      "case_id": "9486f664f08b652b987e",
+      "original_sample_id": "qa_6c586d1de6bf9ef11bb2892e02f6b92897ce717b31e6f3067f1355f3342ed794",
+      "source": "CharXiv",
+      "source_record_sha256": "0bab8875588dfa4a67066de3fc3fd63a4cd62ce0523355ed788420105b3e0c46"
+    },
+    "0cd328c1fa4b3b00bb09": {
+      "case_id": "0cd328c1fa4b3b00bb09",
+      "original_sample_id": "qa_3063447404749ee754e97efeed8ed771a43af0dcc5828a283a806baa7c7dc462",
+      "source": "CharXiv",
+      "source_record_sha256": "806b17c24bcb608fcf433667009f2a7e961ea6c372d6d69147b4a73a56f2f84e"
+    },
+    "8d37c5749eaa9ab6d4ff": {
+      "case_id": "8d37c5749eaa9ab6d4ff",
+      "original_sample_id": "qa_c3ffae778b8499db1fd0f4d7267236431b346b3e214907473fbb9552ecc36aa5",
+      "source": "CharXiv",
+      "source_record_sha256": "d1d1658bc2d537173013aa692aa5ecbf9834cb3fc4f1c4d48137af0b398797b2"
+    },
+    "57af9110b4bcfcaa57c6": {
+      "case_id": "57af9110b4bcfcaa57c6",
+      "original_sample_id": "qa_56233567e347a6f083c42b4426b5a860a7e6f780d862264adf69e002124685b3",
+      "source": "CharXiv",
+      "source_record_sha256": "b5b79cfcaf0baa527ba6dc50da323c5ef842c2f31c286b18bd73c1a3511debc6"
+    },
+    "3337cb1f269bf21f2786": {
+      "case_id": "3337cb1f269bf21f2786",
+      "original_sample_id": "qa_a51a5359ff3cd182a5acbecaff213612810802f85b56649bb86d91f8e5aa70c3",
+      "source": "CharXiv",
+      "source_record_sha256": "aa03ba3d9cabee2978f61d0dff2c6fca351b2e57fcc3eebc7dc41fb4de8b04b9"
+    },
+    "20bd33c74fc9247dbafd": {
+      "case_id": "20bd33c74fc9247dbafd",
+      "original_sample_id": "qa_8010e83e1ac55ba97267a9bcf81a2677bd338ff7a165f5a4b56adcd84e6a83e3",
+      "source": "ChartQA",
+      "source_record_sha256": "e1580434b13003c4f2f589747c4781fd60e701d95f79f8243103c77429f6c863"
+    },
+    "6c1b80891d9f43724aa6": {
+      "case_id": "6c1b80891d9f43724aa6",
+      "original_sample_id": "qa_6c511088c9d4b8c3ef348e24a3f70a01fb710c2f7f7dbf4afedba12f4060e30f",
+      "source": "ChartQA",
+      "source_record_sha256": "f6c627e9b1147b1b6e7a1671be2eb5728481ff2303608df69ffada4270eb8d5f"
+    },
+    "8b859877a71916e278f2": {
+      "case_id": "8b859877a71916e278f2",
+      "original_sample_id": "qa_07816723e977808fa277f17eb19bda24fd6829cc7d3adc3687996fa4878101bb",
+      "source": "ChartQA",
+      "source_record_sha256": "96f20b29ea5e10e2fed43312f8e2d82e99139d6912add9dfed3b605a4d03a00d"
+    },
+    "1bd7f393010eed8240d7": {
+      "case_id": "1bd7f393010eed8240d7",
+      "original_sample_id": "qa_ec76c0a9aa48d0d201cef69c5518606d13cc2249b18d4bd9bd77c5e37b985318",
+      "source": "ChartQA",
+      "source_record_sha256": "436cb9f2aeea92ce92c0ee600f8c8634efcff6f98f48eea4696b6837c72459c4"
+    },
+    "94fb71f39bb8aa3bca10": {
+      "case_id": "94fb71f39bb8aa3bca10",
+      "original_sample_id": "qa_b9314e6c77435d0a3f0686f809bd63b23c68ec96366c5b08423fd11f0d94957d",
+      "source": "ChartQA",
+      "source_record_sha256": "9789c528887d30ee496441181435730bb88a4fa6ec952de9998b835ec7be5192"
+    },
+    "b4e85e9213b3f8caa207": {
+      "case_id": "b4e85e9213b3f8caa207",
+      "original_sample_id": "qa_b09716da5a7500f9d32b7df700349499799a877f6c16246fb759cce97c82ed0b",
+      "source": "ChartQA",
+      "source_record_sha256": "44fbf35b804eb86e4ffaef4ee0d2bd5dae19bef6df070c13c038f8c06aef7101"
+    },
+    "ecc664201e9d9bea1bb9": {
+      "case_id": "ecc664201e9d9bea1bb9",
+      "original_sample_id": "qa_d3fe5cce07729661facd3b347c9c0435444c75e0e672279e63d86fc6f0fb1666",
+      "source": "ChartQA",
+      "source_record_sha256": "7cbb50542dab97f607fa4dda8546083dd50e7f18d2caf724f8e660f1aeaeb3f9"
+    },
+    "9636c5d938e3032e9093": {
+      "case_id": "9636c5d938e3032e9093",
+      "original_sample_id": "qa_b3047cfcbfea854acff6d2096b4ec3107ba383bd94f473c5c6729bee69a16a6f",
+      "source": "ChartQA",
+      "source_record_sha256": "3fd2d7fccf8bd7f6c40b0c13116f8be2c4e277baffe8c78d52ac998c189443f5"
+    },
+    "2807106cc9f8feac0ee1": {
+      "case_id": "2807106cc9f8feac0ee1",
+      "original_sample_id": "qa_31a3322d95099fb5406c57b58f55161074c687d5b37e508331035336f4fcab47",
+      "source": "ChartQAPro",
+      "source_record_sha256": "bef312cd6d46fd52ab41591a0d0317d08b15a4f84e4a22cf6ef01887eca5c13c"
+    },
+    "2bfca2251f727e4dce0e": {
+      "case_id": "2bfca2251f727e4dce0e",
+      "original_sample_id": "qa_16a9f9e91cb11c68c1caf44a9ca4f9697366967aa0eb3aeb09d74f295787ac76",
+      "source": "ChartQAPro",
+      "source_record_sha256": "b54068110cab8965f803062b6aa4fb6393557e15dca533ebffb2edf4b617d1de"
+    },
+    "0b7ce2ad6aecd549aff2": {
+      "case_id": "0b7ce2ad6aecd549aff2",
+      "original_sample_id": "qa_9793d5f4d5bed0969050c8eebcbd190f034023151404820d4bed4a7156c86dbd",
+      "source": "ChartQAPro",
+      "source_record_sha256": "e3866129e15713dac07503ab63b07ddff360b15973b5a84673d52618d4fa09c4"
+    },
+    "c4f4a45fbf1eed353f22": {
+      "case_id": "c4f4a45fbf1eed353f22",
+      "original_sample_id": "qa_025e2350dce5b103c321308c0e5dbcd6c9c78f78bc0449c1e1b247e9528c15c1",
+      "source": "ChartQAPro",
+      "source_record_sha256": "172effe943e96f87f5a01c9ee728419ad53e010929e34f4ecd8fc8ffd92d3ec7"
+    },
+    "96e8c58e2e0c07e0853d": {
+      "case_id": "96e8c58e2e0c07e0853d",
+      "original_sample_id": "qa_1d570978c1205b8145a25ee3e6c51a79f1ebb779f46eb4b8fb49b412999bdb23",
+      "source": "ChartQAPro",
+      "source_record_sha256": "e00b73ad30467e87944ec7592e38468c6351bd945c83d126b2f7e7b55c28fc10"
+    },
+    "afaaeebc1399e1b983e1": {
+      "case_id": "afaaeebc1399e1b983e1",
+      "original_sample_id": "qa_ceb6dc845150d9f2abdb9eb95efe1ccb5e9389468c0528c4cf5a305aedc5ec40",
+      "source": "ChartQAPro",
+      "source_record_sha256": "0925492a6c6d77002b1ffa64da6f59469531688cb1867f0db225cdab8da9c954"
+    },
+    "7df66a259c1ee97df42d": {
+      "case_id": "7df66a259c1ee97df42d",
+      "original_sample_id": "qa_893d2ef71822f6af0ac69a1a9178df39322d4d7f0de3cdfc7c96bf45bfedd87c",
+      "source": "ChartQAPro",
+      "source_record_sha256": "2d06190c328ca19df4dfe0fc6c6d57119dde26d27f8474db7c13035f12203699"
+    },
+    "b109ef608a2884318524": {
+      "case_id": "b109ef608a2884318524",
+      "original_sample_id": "qa_e6179801aab93c4905606c2f8ca71a873959855a93483a435325d084dcf271a5",
+      "source": "ChartQAPro",
+      "source_record_sha256": "58c1f7f2bd615bc1b12fea116471f1adeba1d9869d6fddcd5ab3279e78a857d5"
+    },
+    "5042e0572ddafd0f211c": {
+      "case_id": "5042e0572ddafd0f211c",
+      "original_sample_id": "qa_dc021bf1237003f55e38e6ea9be16d336bed5f31287bac59f78fc6c757ad3cc0",
+      "source": "ChartQAPro",
+      "source_record_sha256": "f17f08e6d642e74f22c79d3f8dfefadae2db1599282cac3172f395fabae24c37"
+    },
+    "b3f81ab479ab390f103c": {
+      "case_id": "b3f81ab479ab390f103c",
+      "original_sample_id": "qa_3199516bb5710a5dbdc383d9f84d571b57428573928177384156823792c1b835",
+      "source": "ChartQAPro",
+      "source_record_sha256": "975c353f11aa607eb57ce28dd8b3d0363f5ac4a5084de8e2e59d017edece7298"
+    },
+    "85a55743f7e7409731b0": {
+      "case_id": "85a55743f7e7409731b0",
+      "original_sample_id": "qa_4f242da1ecd6592fd94e9521b2e8000261d32427b0916a9c66c5f4d413cf0736",
+      "source": "ChartQAPro",
+      "source_record_sha256": "6a7fd36e48e6229d4a95db24081c5d7ce977fd638478cce310120a5427d3a017"
+    },
+    "74de73241d7f5da4dc5b": {
+      "case_id": "74de73241d7f5da4dc5b",
+      "original_sample_id": "qa_5e5925c6fb90b2273335f04c641dc1d17baddc8cdac44fb41d68096f4f949db0",
+      "source": "ChartQAPro",
+      "source_record_sha256": "9034b7226add25df14047f00ea8f217e57c81db36f96ef5b9cd2788119d5bf58"
+    },
+    "32a59a1788ab3cc9f351": {
+      "case_id": "32a59a1788ab3cc9f351",
+      "original_sample_id": "qa_7ddec4a68f6eb7ac174f52b4d5841624bcd6ba9bd763e88b6f4e08c5905ae236",
+      "source": "ChartQAPro",
+      "source_record_sha256": "d7bb83212c151cb61208e415729d71023e63bf7fb5edd18d29b9e08e25ea3611"
+    },
+    "4e6cbc2d3e547621c19c": {
+      "case_id": "4e6cbc2d3e547621c19c",
+      "original_sample_id": "qa_0d3b3a5f46a8b4134d0bf021956017717eadbf2d81c119455808b1d8242320e2",
+      "source": "ChartQAPro",
+      "source_record_sha256": "2c03991a32b9237c7889336ff28fe144d387588be5c36d38dd12e572f746d8b4"
+    },
+    "5073172d5af31b844fb9": {
+      "case_id": "5073172d5af31b844fb9",
+      "original_sample_id": "qa_49e9af6ac6eb8a5ecb354373e9de700da9ff021b149f7de468bac87bf0b0788f",
+      "source": "ChartQAPro",
+      "source_record_sha256": "d8816b4de177173050da134757695a3a2fbfa5429bfea9da27c5da93dbfce0ef"
+    },
+    "807df4112e73625d5bb9": {
+      "case_id": "807df4112e73625d5bb9",
+      "original_sample_id": "qa_b152da6b1fdbafe3fc2732e4eb744f458c3f14fcbc0ce14c61ce1707860d27a6",
+      "source": "ChartQAPro",
+      "source_record_sha256": "20582973c44bdac7e0e4683b851c2dde50651b6cef1bdf099ae0582078ca9c65"
+    },
+    "f41517bd01421c37ed8a": {
+      "case_id": "f41517bd01421c37ed8a",
+      "original_sample_id": "qa_e6662b4f0eb4b989e702a2824b2d7ac8af821fcda398229f4280f72e8b5c96fd",
+      "source": "ChartQAPro",
+      "source_record_sha256": "bb8fe523cc1644e8ec9b948dea7138ff041da1b2d8610ad00386a7db26327d15"
+    },
+    "2bf584e5ce8286a49229": {
+      "case_id": "2bf584e5ce8286a49229",
+      "original_sample_id": "qa_43623d77110cae117e957eb0a749a2206173fb4da9ed62b0747e40153167a07f",
+      "source": "ChartQAPro",
+      "source_record_sha256": "1b81e4f590ce665847172ec666308fd912fe0985caeef2fbe393258024f0c8a3"
+    },
+    "5fb01806a65973016f9a": {
+      "case_id": "5fb01806a65973016f9a",
+      "original_sample_id": "qa_d4181a0f16a34a8682403ee378ca15681018daebef0faf798daf996a1c3fc3fb",
+      "source": "ChartQAPro",
+      "source_record_sha256": "da52ee5309fdca16f0f1cefe3cf13e5e69180d2bd4a4e8446241f91af41bbed4"
+    },
+    "57e59a71b87a9d46b974": {
+      "case_id": "57e59a71b87a9d46b974",
+      "original_sample_id": "qa_b56aad0d619f5ce57f0fb7374a210c82effe0fa99379b7b98afe22d1db80905f",
+      "source": "ChartQAPro",
+      "source_record_sha256": "b2096df7d22eb3e3bed78199810fa52cbc4e74f24b5fde3e823424e907672ecd"
+    },
+    "6e4398c76f7663c6fb3f": {
+      "case_id": "6e4398c76f7663c6fb3f",
+      "original_sample_id": "qa_1336f1f2bd1c7616242f38126ddd19ccc781e3b2f5aed6ad36424cec222138de",
+      "source": "ChartQAPro",
+      "source_record_sha256": "679c3fc199d53e10dcbe942c0f2b352ce6ec147b65a78a0f06e328fda5013044"
+    },
+    "b7625fd7385fe821f194": {
+      "case_id": "b7625fd7385fe821f194",
+      "original_sample_id": "qa_280ef6241beac1bc01a3500003071ef2d3b74d71cad237a1a6e52d6a86992bf1",
+      "source": "ChartQAPro",
+      "source_record_sha256": "f21a9b2c799502847922753e8c14fc6c3564d1a89f2daf040d284e250b485fc3"
+    },
+    "849bb4e32fb1a891417d": {
+      "case_id": "849bb4e32fb1a891417d",
+      "original_sample_id": "qa_5ed26f37bc24a89eff8a82e1bb59e582b63fbcfd58c92572183b885e051c930e",
+      "source": "ChartQAPro",
+      "source_record_sha256": "37a8575214b6181bce44e41ee8ddd4f31ef7da63067328b9d67191e73dcf19f8"
+    },
+    "18b39fdbd2b1572601ed": {
+      "case_id": "18b39fdbd2b1572601ed",
+      "original_sample_id": "qa_521b6797466ba050a456498f5467a26d4c33e15272101fe2d57a4be4be5c3ebc",
+      "source": "ChartQAPro",
+      "source_record_sha256": "ca0e72d470cc70db922f020f83c2332a5aa5453cc0037c6343fbde5861193d88"
+    },
+    "b1885af7e70695b07753": {
+      "case_id": "b1885af7e70695b07753",
+      "original_sample_id": "qa_000076f820ac70468478edde3aa1c8df9fa527cf64ba43747426038263638380",
+      "source": "MMTU",
+      "source_record_sha256": "d5f37190170c21c1a80b610c376ed0e3764b85f7d11c611fa861f8e598e3b808"
+    },
+    "7e538e3482a4904d4006": {
+      "case_id": "7e538e3482a4904d4006",
+      "original_sample_id": "qa_19c3f4e1e59c29bde8368db4167c173e896eec653def9aa2b548c5a415d049d8",
+      "source": "MMTU",
+      "source_record_sha256": "2d1cef6827637074612cce1e212366fc280bdbf7d83846045388d94d150f6a95"
+    },
+    "18b2bebb98fad2f55208": {
+      "case_id": "18b2bebb98fad2f55208",
+      "original_sample_id": "qa_01cb5ff7ff4dc8ea908da4aa340a45d02f78e8699169e167ab0e8d14ceb44ae4",
+      "source": "MMTU",
+      "source_record_sha256": "a1567688376f9ed76f60c0b10e411f5386e9d4977758d27789b269b7ed5e7210"
+    },
+    "70033ba3235a6d7866b7": {
+      "case_id": "70033ba3235a6d7866b7",
+      "original_sample_id": "qa_22ce0e4594adb352e5d7c71740de2d6e8c89da74470f937c3355dd44c93d3010",
+      "source": "MMTU",
+      "source_record_sha256": "7309bf9f98ac72a9d12fdc268476d62d417c400ed41dcd9b17fe097833f66139"
+    },
+    "89a32f0298031a49cbe3": {
+      "case_id": "89a32f0298031a49cbe3",
+      "original_sample_id": "qa_6d22f449553f66c994e17d275425a2de24430b0991b0848f6b4e0a2e14c685fe",
+      "source": "MMTU",
+      "source_record_sha256": "93e41bed2c5febe8d10fa75886f2bff487aa168334a7bd33922eed2fea42eaf9"
+    },
+    "73985251c400ec79500d": {
+      "case_id": "73985251c400ec79500d",
+      "original_sample_id": "qa_aff23a91fba2f4881d8c13e4505564292f9ac47206247173737afeddc7d88cae",
+      "source": "MMTU",
+      "source_record_sha256": "af757eb553b03500d73d68f6dbebd06a069ea8173b3af2a47fb0c750cf047a90"
+    },
+    "62e507906b924c7a9c84": {
+      "case_id": "62e507906b924c7a9c84",
+      "original_sample_id": "qa_88e93a130dab5a5c5e5a600e3999ea8670d3bcb9d270457b6e17d5424446247f",
+      "source": "MMTU",
+      "source_record_sha256": "8ce077d157741b5d561e4386af15e4ae256e92874a0267728170051472611466"
+    },
+    "114b1d29e4d590e0d89e": {
+      "case_id": "114b1d29e4d590e0d89e",
+      "original_sample_id": "qa_426ef8364e5ea6aad00630e8cbfd4888728178cff8a515d1bb781dbdc5d68753",
+      "source": "MMTU",
+      "source_record_sha256": "d77608373fa53d09007130b2145fa8c3017223afda67927b80fde8607d465131"
+    },
+    "3cb6452a2a243405fae2": {
+      "case_id": "3cb6452a2a243405fae2",
+      "original_sample_id": "qa_92585d1511a4154aeb34ef4e7e124804b61542d743c8332201404d9fd55662db",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "2029b5aea125b4276add419cba05470061d47f0af276c42e3edc0ddf88de6147"
+    },
+    "345c918a890d9cdd8b8f": {
+      "case_id": "345c918a890d9cdd8b8f",
+      "original_sample_id": "qa_02df3e05548157a06990709390e313562511d536201f8e988db05af55e12b111",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "e736b498c2daccc62c988e023cb78f15ac5482bfd49da08f42155c4e93787dd5"
+    },
+    "2bf86a8ac478956722f8": {
+      "case_id": "2bf86a8ac478956722f8",
+      "original_sample_id": "qa_32e7e11b28a8fc0f45cde4288731c3b3b9f22f65c27bdc595407f9ea94c0795a",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "3b1a083ea39f86ab6d7dc68f3d6c444cbbab1643a7b7b2aa323e17876d693ae4"
+    },
+    "7ee2a36369b87fd2cde9": {
+      "case_id": "7ee2a36369b87fd2cde9",
+      "original_sample_id": "qa_15911eacb5b75efd9a61352079d66ba65bd83d0fd03ac2eb5cfabe74dd15b54a",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "ff87972be5b16bcc7bb4d25bc86fa0d0c5638681f2407e3e83cf050b0ae637dd"
+    },
+    "01ef673ef59ed3cb98ed": {
+      "case_id": "01ef673ef59ed3cb98ed",
+      "original_sample_id": "qa_7e78ea78b054c0ed7a319c97792cc6d7c358513e078b41b7001118c0b2605edd",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "b4d3d1c2f50ddb9f237c47c6462f7ebee48b9e9ea7833ba95386a57729c0b62d"
+    },
+    "54e1b09069328391f913": {
+      "case_id": "54e1b09069328391f913",
+      "original_sample_id": "qa_2783c622ba762b4c764a563eb805d7dfcd2cd7af21d7b59999a021122f6df78c",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "3f2a847cb153e2825bf61e9d7554090c8937bff199697946227e7a23bde7ecb7"
+    },
+    "fe6676387b8a848aced4": {
+      "case_id": "fe6676387b8a848aced4",
+      "original_sample_id": "qa_b6674095e461e9bafca0daf3ede9b0224ffd56bd6d5a56fe5fc00b7ce204124e",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "0802b93df11fb91cf2ecb1b92867cdc2efab6e4eb5c1fe2ea5d5cacc2393d71b"
+    },
+    "e3eead8e75a6b90df661": {
+      "case_id": "e3eead8e75a6b90df661",
+      "original_sample_id": "qa_57b025b55e532528f55b24229457cfbc2c58f91cc7d2a7ab4caaaaed6ad25ae4",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "c81cd305db46525e7970aa4efda07997877e20ae81773ea3c04068457d25ea63"
+    },
+    "3e8b462a0c2d0fac1e3c": {
+      "case_id": "3e8b462a0c2d0fac1e3c",
+      "original_sample_id": "qa_93b57875a569614a967e2201092183de7e77f14452b7785b28e4132e2fa8337f",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "d554121910becba2d99742a80a3b54fa34ef9e81593de308686eaf310ff529a9"
+    },
+    "f155ec55955edf406073": {
+      "case_id": "f155ec55955edf406073",
+      "original_sample_id": "qa_b96c42b36795883e3ca1f9da44120d8d7f66c7061485242645e45e038846a27a",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "f5746c9d32b1fa3f85839ce62a6b3299ae9288c3405f57487288e58a1feb990d"
+    },
+    "75f3a679a90eadee54a0": {
+      "case_id": "75f3a679a90eadee54a0",
+      "original_sample_id": "qa_8c0b4fee9e08b1bdc5cd83feed96561745d6ee812da52e3c8214d58a36a4e82e",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "cc3139bdda766636e9397160a64ccdf73dcdff3a875ec125ba871f46f00dd221"
+    },
+    "ed14e552891bd6495c52": {
+      "case_id": "ed14e552891bd6495c52",
+      "original_sample_id": "qa_b4eb365f2acb480f076f4d1c8daf584225609450d4588c76ef3abd8d6d7eb0fb",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "16898b724f07315fa2520ea422a82c43784feb79257fa9f82aad9e793bf1781a"
+    },
+    "540778c260964def4586": {
+      "case_id": "540778c260964def4586",
+      "original_sample_id": "qa_8f1cbc7436566fdb226e50112a1972b787ec78fa9956627f7d8e86cc839b44d5",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "4e7464667db0eab41aa8b5163ab237e48660e0493d20b60f8fe51944d9d3cb00"
+    },
+    "880670c8479fd04fc8af": {
+      "case_id": "880670c8479fd04fc8af",
+      "original_sample_id": "qa_8abbfdcff209622f5ffcdd94ef4ab68d4a9d955f5e7af889b00d8870874e04f5",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "7706e79fb9f10c7da2e40e83dc354c280a58df80ee557700d3035a14d1d26927"
+    },
+    "27d39893f4dde3bdc757": {
+      "case_id": "27d39893f4dde3bdc757",
+      "original_sample_id": "qa_6cbf79854e7030de4e8db78132528de50f3404fdd57f779af4c1face12b3c74c",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "93eb1204f7fb53db4de426702e2b3f8928437f15ce0cf9b469cf18cc917eaa19"
+    },
+    "c70fdad3f7e463840e5a": {
+      "case_id": "c70fdad3f7e463840e5a",
+      "original_sample_id": "qa_3cced605cbf8d537c58bff9a15c385f6a776b6d66577b71a99c4d78054c80846",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "e0405a4d4babe3f4fa1d4a3b6da93b0a0ec97a84b1d7674700e6a5d709a9c2dd"
+    },
+    "ae2a24341da7064d5e5b": {
+      "case_id": "ae2a24341da7064d5e5b",
+      "original_sample_id": "qa_5085afe859a13a2e65f2680c08473e960c390a118e60427e3a6163210cca6a38",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "56dd85b243cbf9fd8a631ed8334b8b75803c75a7e3f240f561da05eb838b24b9"
+    },
+    "56add96f6e681a2608e7": {
+      "case_id": "56add96f6e681a2608e7",
+      "original_sample_id": "qa_7aa1e29585fda964ea00b59b6993939a981bd05141bdb73a77ca0ee2310c1dd1",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "420eeee652af3b70838a9f3124bf9ae9d9b2f524decf47e633fcbcaa43abc14e"
+    },
+    "5cabdebbe28b174ed423": {
+      "case_id": "5cabdebbe28b174ed423",
+      "original_sample_id": "qa_9e3fb407ca413ced0870d61cb86e3ea81d4c7e5bbaa438891c738a4ef7798a21",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "dfda3adec75b901e38a176fbeafb54c4c481fc71c32f6e7010830510b9eaf149"
+    },
+    "beea6ac8e44f46a4543d": {
+      "case_id": "beea6ac8e44f46a4543d",
+      "original_sample_id": "qa_465eb4aed97d5d2816831666c1947108d0f2c8c49a8f39794a336dc433b5cea3",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "0cf21bf45d69d1114a8d80acf6e1a20a545da9fb2d6e22b363d734aaf3d985f7"
+    },
+    "c66143a0d4e0c347b347": {
+      "case_id": "c66143a0d4e0c347b347",
+      "original_sample_id": "qa_819b5c102555a31ab2ef156a4e1539bc1a2dca8e55b69cb45da8db2286f6aa2a",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "18076808acc43f068ca502c35e91ba21ebba34208c2fc955ee2bac0c3559b8cf"
+    },
+    "14a8f81e18e712798c54": {
+      "case_id": "14a8f81e18e712798c54",
+      "original_sample_id": "qa_851c0827264b53770421811728e09d56be79aae3cc8f9230fb5a184646114513",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "5ac13f0107158cc518fb0a82fe20bb99ce5fd82734d54d9e2b9dd90fa1c499f9"
+    },
+    "256f908b3268ac9a65fe": {
+      "case_id": "256f908b3268ac9a65fe",
+      "original_sample_id": "qa_54a8aac1092aec85c29ef0955ffefea0bf9fda5becd26a1b5c00056e57aba004",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "84486a6c727f7ab8014e455cf34f2bd4b9e3b848707404a084ffefa765cad9b1"
+    },
+    "f476b80b56c559558e3e": {
+      "case_id": "f476b80b56c559558e3e",
+      "original_sample_id": "qa_252aada3002dcb5f0ad197d9fa80c0a05fb6d381d17cc6f5b6d55d7b2534ffec",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "8a04b9b9346f8ca629369558a27454c8ee38bc73818417751f33e1f6968f1822"
+    },
+    "f9cff69545f0cf92bf1b": {
+      "case_id": "f9cff69545f0cf92bf1b",
+      "original_sample_id": "qa_7100fdaa8d36541a5e8a570c6ef3e4cdc0b77240ed6a0e4813947d0a3185c7eb",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "0a1c9689daab9251ff49a53cf437faaa8fcc71ed77c5e2bea71ce1b364d75877"
+    },
+    "569067c3825f21ab8805": {
+      "case_id": "569067c3825f21ab8805",
+      "original_sample_id": "qa_5740e8f58a9cd41ac7cc5f9083443c304d99e9108f177f73f0b6a2cf06c1d592",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "5e16a5c1428ffe7c5a1dda800499680aa4481e2a522bc4411c640fa84705e245"
+    },
+    "6b422af9f7f24deb6978": {
+      "case_id": "6b422af9f7f24deb6978",
+      "original_sample_id": "qa_91b1981c99126252329915f5fd51ee5219fd3f36205a2305d97f2b4d2330c684",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "6635c6358410c91acdcf38259dbdae2e6979988d4ff18a5ad427a4115db33776"
+    },
+    "813ec2b46c009e7f23ec": {
+      "case_id": "813ec2b46c009e7f23ec",
+      "original_sample_id": "qa_37214aea276aabbd46892f10e671d21f373d2ed1ccdb9726e6394c470987d4ac",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "9c32f1b12a4373364d206e2aac3dae0f073ca6adac2cd2b16af6d98418fd5026"
+    },
+    "67889af29211ab1128fd": {
+      "case_id": "67889af29211ab1128fd",
+      "original_sample_id": "qa_a921a76fdcdbf6d662944b67cce5ed995976b019fd3304fcdffe1f19d14405e2",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "d9302f5bbc7e4e27b417bf554a2f77bb2454936db33d3df7d664bc22259cd2f6"
+    },
+    "72535a8c0ee6664fabd0": {
+      "case_id": "72535a8c0ee6664fabd0",
+      "original_sample_id": "qa_c6d7ff83c8f42af491cceb7720bb43dcd73161ec44d4f24ddbf8d09456efc757",
+      "source": "Visual-TableQA",
+      "source_record_sha256": "f08182750d84cf62a4a59de3bb4020e17be25ce15479aa66f7a4d7b13c1b230e"
+    },
+    "0efd9b1928fbf1e23895": {
+      "case_id": "0efd9b1928fbf1e23895",
+      "original_sample_id": "qa_20a7d37af5bf74ec7f15e92200de82edf95fa6269fc4fa9e2b596b8ab8001bd5",
+      "source": "ChartQAPro",
+      "source_record_sha256": "fc47957488115c784fe29a2ab527d0567b35a43478c263f8eaa6106f9419220f"
+    },
+    "2873b6610879880f28c9": {
+      "case_id": "2873b6610879880f28c9",
+      "original_sample_id": "qa_3e150dd18dc4e247b4a3678996a5a4fda5285192c829d485f4a4ece52fcd34f4",
+      "source": "ChartQAPro",
+      "source_record_sha256": "356167ad617b067304335906085343b878581115eb70e5ba058505d890530ec8"
+    },
+    "3003d2db8a0f8562b7ca": {
+      "case_id": "3003d2db8a0f8562b7ca",
+      "original_sample_id": "qa_6136db073e801e817b2fa78433d7b2522f6cd236eb6f10d0ca7164fd2d92c489",
+      "source": "ChartQA",
+      "source_record_sha256": "6cd78aa901229bc2b573bad5f89a67d6c31f1ae04766d54a93516f37826abb62"
+    },
+    "31b80870eb436346754d": {
+      "case_id": "31b80870eb436346754d",
+      "original_sample_id": "qa_09bf76481ee9700b368507ee0f94cf85ef179d6a56a59228c30fdc4ac30c2f46",
+      "source": "ChartQA",
+      "source_record_sha256": "7b398a3efcbc4d05c9e7ea529422a2852344915f8d6f8d43e5f7d201bb908a17"
+    },
+    "667f444290a8733126aa": {
+      "case_id": "667f444290a8733126aa",
+      "original_sample_id": "qa_5a45c0fbd94873cf430f6535c46b1bfed66372994c5d173dde721ee53f9f53b0",
+      "source": "ChartQA",
+      "source_record_sha256": "8e5a26ec6aac45e0ee91894bc65d7b8c7fdcd69fff8ba6c1c0694b04a0233311"
+    },
+    "7a281c6b9338cffbaab6": {
+      "case_id": "7a281c6b9338cffbaab6",
+      "original_sample_id": "qa_c96e8754593a95372339fe5c56f450dee9b8b8daa490e41b222751249588ea5a",
+      "source": "MMTU",
+      "source_record_sha256": "a70f2c9295c4453dc3a311f33a7c8c9903439f0073646e7789868b69e82fa2c6"
+    },
+    "88679fa8758854690e7c": {
+      "case_id": "88679fa8758854690e7c",
+      "original_sample_id": "qa_7e47c159cf0c8b1f88ab3c3934cc2cd2b46c206f1362648636dd95a346ad5d97",
+      "source": "ChartQAPro",
+      "source_record_sha256": "4ae4d9d8eb13f50fc4ed90b89f62c0ef5b221e0aa844cac89398966992bf40f4"
+    },
+    "b5ed01c0223fd6aee634": {
+      "case_id": "b5ed01c0223fd6aee634",
+      "original_sample_id": "qa_a3e2cf89a29f11c3c1fdd3d9f72d0641c42d28d885666e4ee4568e6ee89cde0c",
+      "source": "ChartQA",
+      "source_record_sha256": "ca44ca7d7706fce17e1e67748f9acbf2ebe8433336e632129f29527ee2ce449e"
+    },
+    "c10f553cd51894a5a726": {
+      "case_id": "c10f553cd51894a5a726",
+      "original_sample_id": "qa_4625a7f9deb1c92e5634e513a4ea17a1d1c74476768bec599a5d0920fee9f758",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "39c44a690316a9f6c119a8a9c13c3aca55e1a0d330bc2afac38461cd0f3b546c"
+    },
+    "c8bed98b3b7e85891063": {
+      "case_id": "c8bed98b3b7e85891063",
+      "original_sample_id": "qa_ff9bdbf17dbf9f6b2add7fb0fe5a5a44c09aabbc1e901b2c9caffb80f8c01e45",
+      "source": "TableVQA-Bench",
+      "source_record_sha256": "70e1c5d28d60bf8ae80bbfdb2433d7f3ca29fd7a6206feaee805630e4ac5b74c"
+    }
+  },
+  "archive_store": "External content-addressed provenance_assets; original QA is not part of this release."
+}

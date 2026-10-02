@@ -1,0 +1,12 @@
+.env
+.env.*
+!.env.example
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+*.lock
+.pytest_cache/
+.matplotlib_cache/
+local_runs/

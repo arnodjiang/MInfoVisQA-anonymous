@@ -1,0 +1,28 @@
+{
+  "zh": {
+    "labels": {
+      "product": "产品",
+      "revenue": "收入",
+      "diapers": "纸尿裤"
+    },
+    "qas": {
+      "q1": {
+        "question": "2002年[[diapers]]的收入是多少？",
+        "answer": "3.0"
+      }
+    }
+  },
+  "ar": {
+    "labels": {
+      "product": "المنتج",
+      "revenue": "الإيرادات",
+      "diapers": "حفاضات"
+    },
+    "qas": {
+      "q1": {
+        "question": "ما إيرادات [[diapers]] في 2002؟",
+        "answer": "3.0"
+      }
+    }
+  }
+}

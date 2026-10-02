@@ -1,0 +1,32 @@
+{
+  "active_dataset": "data/benchmark",
+  "retired_datasets": [
+    "data/visual_benchmark/final_128_24lang_v1",
+    "data/visual_benchmark/final_128_24lang_v2",
+    "data/visual_benchmark/final_128_v1",
+    "data/visual_benchmark/final_128_v2",
+    "data/visual_benchmark/pilot_5x11_v1",
+    "data/visual_benchmark/query_polish_v1",
+    "data/visual_benchmark/final_128_24lang_v3",
+    "data/visual_benchmark/.DS_Store",
+    "data/visual_benchmark/final_128_v3",
+    "data/visual_benchmark/baseline",
+    "data/visual_benchmark/skill_smoke_table",
+    "data/visual_benchmark/skill_smoke_chart",
+    "data/visual_benchmark/expansion_preparation_archived_20260913",
+    "data/releases/mvisqa-benchmark-source-v0.2.0.zip",
+    "data/releases/mvisqa_val_screened_20260911a",
+    "data/releases/multilingual-visual-benchmark-v0.1.0.manifest.json",
+    "data/releases/mvisqa_val_v3_screened_20260912",
+    "data/releases/multilingual-visual-benchmark-v0.1.0.zip",
+    "data/releases/mvisqa_val_v2_screened",
+    "data/processed/pilot_v1",
+    "data/processed/normal_qa_v2",
+    "data/processed/normal_qa_v3",
+    "data/translations/multilingual_pilot_5x11_v1",
+    "data/translations/zh_pilot_5",
+    "data/demo_open_source"
+  ],
+  "original_provenance_store": "local_runs/provenance_assets",
+  "frozen_evaluation_dataset": "data/benchmark"
+}

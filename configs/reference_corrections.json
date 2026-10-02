@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "corrections": [
+    {
+      "id": "charxiv_399_angle_pair_v1",
+      "case_id": "ce3cd691bfbeb2813fd9",
+      "source": "CharXiv",
+      "file": "data/raw/CharXiv/val.parquet",
+      "row_index": 399,
+      "original_answer": "θ = 45°, θ = 90°",
+      "corrected_answer": "0°、45°",
+      "authority": "User-confirmed reference correction",
+      "reason": "Original image and reconstructed curves intersect for theta=0 and theta=45 between E=1.00 and E=1.25. User explicitly confirmed the corrected angle pair."
+    }
+  ]
+}

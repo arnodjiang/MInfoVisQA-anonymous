@@ -1,0 +1,24 @@
+{
+  "n": 128,
+  "source": "data/benchmark/validation_release/val.candidates.jsonl",
+  "source_sha256": "ab1cd0fa0e2dbf212edf43d883e56d996aa66f0cde84539244f576bb06f557f1",
+  "unit": "Unique seed QA, English reference; each seed counted once.",
+  "sources": {
+    "CharXiv": 48,
+    "ChartQA": 12,
+    "ChartQAPro": 27,
+    "MMTU": 9,
+    "TableVQA-Bench": 22,
+    "Visual-TableQA": 10
+  },
+  "answers": {
+    "Translation-invariant": 78,
+    "Language-bearing": 50
+  },
+  "policy": "Translation-invariant includes numbers, numeric ranges/dates, symbols and fixed identifiers. Language-bearing includes lexical units, explanations, and names subject to translation/transliteration. Formatting may still differ. This is a reference-content classification, not a claim that every translation string is identical.",
+  "metadata_answer_types": {
+    "numeric": 71,
+    "short_text": 55,
+    "list": 2
+  }
+}

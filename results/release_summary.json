@@ -1,0 +1,18 @@
+{
+  "qa_instances": 8960,
+  "localized_images": 3072,
+  "embedded_renderers": 3072,
+  "models": [
+    "gpt6_astra",
+    "gpt56_sol",
+    "gemini38_flash",
+    "gpt56_luna",
+    "gpt55"
+  ],
+  "image_bytes": 709762458,
+  "notes": [
+    "Only locally available results are included.",
+    "Metadata and paths are sanitized; original input fingerprints in historical results refer to the original local evaluation artifacts.",
+    "Pixels and evaluation text are preserved; PNG metadata is removed."
+  ]
+}

@@ -1,0 +1,136 @@
+case_id,source,answer,original_answer_type,category,reason
+e525de67b11a063bafc6,CharXiv,750,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+3d60f3188bd83b417d5e,CharXiv,SA-QID-dev,short_text,Translation-invariant,Fixed experiment identifier SA-QID-dev.
+b8d7a6d461d63b21ede5,CharXiv,"40,000",numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+5cbdf061644e84de88eb,CharXiv,1,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+a032031022ae8c34ff55,CharXiv,1,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+ef91d5570ddf4f10896c,CharXiv,$\lambda_{\mathrm{L}} = 0.13$,short_text,Translation-invariant,Mathematical parameter and numeric value.
+e4649a6173c965dce26d,CharXiv,The Variance of the suppliers size : Var(s(y)) value at Friction parameter  r_f = μ/λ 0.25 is larger.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+ec3da0f1c31be820cc61,CharXiv,EBP,short_text,Translation-invariant,Fixed acronym EBP.
+fdb77eea7b046a34a188,CharXiv,0,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+0feefe120418bb710e9b,CharXiv,"(f) Controls: lags of Macro Variables
+lags of non-Tax Topics
+leads and lags of exog. Tax Changes",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+ca421dcd85dee3904def,CharXiv,2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+09bb0d004bd2eed54349,CharXiv,population,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+6e1be4aaeb71756635da,CharXiv,wind-offshore,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+659d4312e8d18271430f,CharXiv,04_MSY,short_text,Translation-invariant,Fixed identifier 04_MSY.
+890e3b5095b1c36c5886,CharXiv,0.18,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+9b4e7f80411b35a73cbc,CharXiv,-54,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+a97c3c13b5f40162dd14,CharXiv,Root-MUSIC,short_text,Translation-invariant,Fixed algorithm identifier Root-MUSIC.
+7f9e0f9af72247072e65,CharXiv,Theory NU N = 64,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+052ef54062001e7a853f,CharXiv,Window 4 (20:00-21:00),short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+ce3cd691bfbeb2813fd9,CharXiv,0°、45°,list,Translation-invariant,"Numeric angle list, with degree symbols."
+0c515d14c641ec4b6d5f,CharXiv,ω_z,short_text,Translation-invariant,Mathematical symbol omega_z.
+cfadf691562200d04818,CharXiv,1–2,short_text,Translation-invariant,Numeric range.
+d257d2ff1f5867cfaa3f,CharXiv,HLF-SZO,short_text,Translation-invariant,Fixed method identifier HLF-SZO.
+cc7a4a1d899164253751,CharXiv,No line is consistently above the others.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+2c554fcd49fb533218da,CharXiv,3,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+fac5a3ecd43a846a61e5,CharXiv,simulated microlensing,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+c0b048a7d55e55fb26f4,CharXiv,Greater.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+fba277285c66b06c24e3,CharXiv,Companion Star,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+992494d15c45b3b2bd34,CharXiv,2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+355ef63999002c8e8a88,CharXiv,1.01,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+5e24d7966b2942d2f2d4,CharXiv,Temperature,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+c956813ef506d7ebf442,CharXiv,UKBB ICA,short_text,Translation-invariant,Fixed acronym UKBB ICA.
+6cc1c307a7246222304b,CharXiv,Control,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+04bdfe7722bb349d8e26,CharXiv,γ = 0.4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+be5db785dc0325a9a6e7,CharXiv,2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+ef998ed493ef965dbbfa,CharXiv,1.5,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+5200cb2ddd0e8de2c9e5,CharXiv,10^-1,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+a47c0d35b0b7257d362d,CharXiv,Red curve,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+e9862f967583ff461a6b,CharXiv,0.73,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+db05618028464780502f,CharXiv,10^1,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+d9fa947d8d75a8e6888b,CharXiv,4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+df6114bb431467d641f5,CharXiv,0.000,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+d289bd54918affd68074,CharXiv,North_Central,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+9486f664f08b652b987e,CharXiv,Geese Period 3,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+0cd328c1fa4b3b00bb09,CharXiv,5,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+8d37c5749eaa9ab6d4ff,CharXiv,$\alpha$,short_text,Translation-invariant,Mathematical symbol alpha.
+57af9110b4bcfcaa57c6,CharXiv,4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+3337cb1f269bf21f2786,CharXiv,Decrease.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+20bd33c74fc9247dbafd,ChartQA,0.23,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+6c1b80891d9f43724aa6,ChartQA,Male,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+8b859877a71916e278f2,ChartQA,6,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+1bd7f393010eed8240d7,ChartQA,18.2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+94fb71f39bb8aa3bca10,ChartQA,Mercadona,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+b4e85e9213b3f8caa207,ChartQA,37.91,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+ecc664201e9d9bea1bb9,ChartQA,British Columbia,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+9636c5d938e3032e9093,ChartQA,9.3,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+2807106cc9f8feac0ee1,ChartQAPro,6,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+2bfca2251f727e4dce0e,ChartQAPro,2665000,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+0b7ce2ad6aecd549aff2,ChartQAPro,65779,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+c4f4a45fbf1eed353f22,ChartQAPro,86%,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+96e8c58e2e0c07e0853d,ChartQAPro,TX Public Schools Close,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+afaaeebc1399e1b983e1,ChartQAPro,04/25,short_text,Translation-invariant,"Numeric date representation, no lexical translation."
+7df66a259c1ee97df42d,ChartQAPro,272.25,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+b109ef608a2884318524,ChartQAPro,Apr,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+5042e0572ddafd0f211c,ChartQAPro,550,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+b3f81ab479ab390f103c,ChartQAPro,2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+85a55743f7e7409731b0,ChartQAPro,-0.4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+74de73241d7f5da4dc5b,ChartQAPro,2017,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+32a59a1788ab3cc9f351,ChartQAPro,Winter,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+4e6cbc2d3e547621c19c,ChartQAPro,Below,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+5073172d5af31b844fb9,ChartQAPro,High,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+807df4112e73625d5bb9,ChartQAPro,2261,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+f41517bd01421c37ed8a,ChartQAPro,"Food and
+Beverage",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+2bf584e5ce8286a49229,ChartQAPro,"Generalist, Forest generalist",list,Language-bearing,Contains words or names subject to translation/transliteration.
+5fb01806a65973016f9a,ChartQAPro,5,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+57e59a71b87a9d46b974,ChartQAPro,West,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+6e4398c76f7663c6fb3f,ChartQAPro,14692,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+b7625fd7385fe821f194,ChartQAPro,Business process innovation²,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+849bb4e32fb1a891417d,ChartQAPro,101186,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+18b39fdbd2b1572601ed,ChartQAPro,4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+b1885af7e70695b07753,MMTU,0.13606000000000001,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+7e538e3482a4904d4006,MMTU,18.75,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+18b2bebb98fad2f55208,MMTU,0.030080000000000003,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+70033ba3235a6d7866b7,MMTU,adria airways,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+89a32f0298031a49cbe3,MMTU,62.7,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+73985251c400ec79500d,MMTU,Everything You've Done Wrong,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+62e507906b924c7a9c84,MMTU,10,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+114b1d29e4d590e0d89e,MMTU,Roy Hartsfield,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+3cb6452a2a243405fae2,TableVQA-Bench,$3.0 billion,numeric,Language-bearing,Scale word billion requires translation.
+345c918a890d9cdd8b8f,TableVQA-Bench,"$4,075.1",numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+2bf86a8ac478956722f8,TableVQA-Bench,12.7,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+7ee2a36369b87fd2cde9,TableVQA-Bench,$756,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+01ef673ef59ed3cb98ed,TableVQA-Bench,"$5,290",numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+54e1b09069328391f913,TableVQA-Bench,$341.9 million,numeric,Language-bearing,Scale word million requires translation.
+fe6676387b8a848aced4,TableVQA-Bench,"$102,942",numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+e3eead8e75a6b90df661,TableVQA-Bench,$735.8,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+3e8b462a0c2d0fac1e3c,TableVQA-Bench,17,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+f155ec55955edf406073,TableVQA-Bench,The player in Tony Lang (29).,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+75f3a679a90eadee54a0,TableVQA-Bench,Mr P.Venter,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+ed14e552891bd6495c52,TableVQA-Bench,6,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+540778c260964def4586,TableVQA-Bench,"""The Charity""",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+880670c8479fd04fc8af,TableVQA-Bench,2007,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+27d39893f4dde3bdc757,TableVQA-Bench,11,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+c70fdad3f7e463840e5a,TableVQA-Bench,11,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+ae2a24341da7064d5e5b,TableVQA-Bench,France,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+56add96f6e681a2608e7,TableVQA-Bench,4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+5cabdebbe28b174ed423,TableVQA-Bench,"""Say Yes""",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+beea6ac8e44f46a4543d,TableVQA-Bench,227000,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+c66143a0d4e0c347b347,Visual-TableQA,The USB Flash Drive introduced a Highly portable and versatile form factor.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+14a8f81e18e712798c54,Visual-TableQA,37.5% (3 paintings in the Oil (3) category out of 8 total paintings).,numeric,Language-bearing,Reference includes a verbal explanation and category name.
+256f908b3268ac9a65fe,Visual-TableQA,"High Risk poses require Advanced, Medium Risk poses require Beginner+, and Low Risk poses are suitable for All levels. Higher risk correlates with a more restrictive Recommen
+Level; the High Risk category has the most restrictive level, Advanced.",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+f476b80b56c559558e3e,Visual-TableQA,The orange circle represents No Tempo.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+f9cff69545f0cf92bf1b,Visual-TableQA,"Slapstick, the first column, consistently declines: Dominant (1920s) → Declining (1960s) → Limited (2000s) → Rare (2020s). Dark comedy, the last column, consistently rises from non-existence: None (1920s) → Niche (1960s) → Growing (2000s) → Dominant (2020s).",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+569067c3825f21ab8805,Visual-TableQA,"The Polar climate zone has the highest level of legal protection, with a Strictly
+Protected legal status. Its environmental provisions include climate change mitigation and conservation.",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+6b422af9f7f24deb6978,Visual-TableQA,"The Recommended
+Modifier for Polished
+Metal is a Large octabox, while for Frosted Glass it is a Panel diffuser.",short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+813ec2b46c009e7f23ec,Visual-TableQA,Tango and Flamenco share a three-count rhythm (1-2-3): “milonga” for Tango and “zapateado” for Flamenco.,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+67889af29211ab1128fd,Visual-TableQA,All 17 grape varieties.,numeric,Language-bearing,Reference includes the words All and grape varieties.
+72535a8c0ee6664fabd0,Visual-TableQA,"The average interval between consecutive milestones is 14.625 years, or approximately 14.6 years.",numeric,Language-bearing,Reference is a sentence with a verbal unit and approximation.
+0efd9b1928fbf1e23895,ChartQAPro,2016,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+2873b6610879880f28c9,ChartQAPro,4,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+3003d2db8a0f8562b7ca,ChartQA,1.058333333,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+31b80870eb436346754d,ChartQA,41,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+667f444290a8733126aa,ChartQA,Year,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+7a281c6b9338cffbaab6,MMTU,2.5,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+88679fa8758854690e7c,ChartQAPro,Red,short_text,Language-bearing,Contains words or names subject to translation/transliteration.
+b5ed01c0223fd6aee634,ChartQA,12,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+c10f553cd51894a5a726,TableVQA-Bench,77.7,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
+c8bed98b3b7e85891063,TableVQA-Bench,2,numeric,Translation-invariant,Numeric or mathematical reference without lexical content.
