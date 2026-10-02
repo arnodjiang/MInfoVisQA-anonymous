@@ -1,67 +1,56 @@
 # MInfoVisQA
 
-Anonymous research artifacts.
+## Dataset
 
-## Main results
+The dataset is included in this repository at [data/benchmark](data/benchmark).
 
-Accuracy (%). XQA averages the 23 off-diagonal visual languages; AVG averages all 70 distinct configurations. Exact matches are accepted directly; remaining answers use the text-only GPT-6 Astra equivalence judge. Unconfirmed equivalence and failed requests count as incorrect.
+- Evaluation records: [val.candidates.jsonl](data/benchmark/validation_release/val.candidates.jsonl).
+- Localized images and standalone rendering scripts: [cases](data/benchmark/cases).
 
-| Model | XQA-ZH | XQA-EN | LQA-EN | LQA-ZH | LQA-JA | LQA-KO | LQA-FR | LQA-DE | LQA-ES | LQA-PT | LQA-RU | LQA-AR | LQA-HI | LQA-IT | LQA-NL | LQA-PL | LQA-TR | LQA-VI | LQA-ID | LQA-TH | LQA-SW | LQA-FA | LQA-UR | LQA-BN | LQA-TA | LQA-TE | AVG |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| gpt-6-astra | 80.3 | 82.5 | 86.7 | 85.2 | 83.6 | 84.4 | 82.8 | 84.4 | 82.8 | 82.0 | 84.4 | 82.0 | 79.7 | 84.4 | 84.4 | 83.6 | 82.0 | 83.6 | 82.0 | 81.2 | 85.2 | 82.8 | 79.7 | 82.0 | 81.2 | 77.3 | 81.9 |
-| gpt-5.6-sol | 77.5 | 78.7 | 81.2 | 79.7 | 81.2 | 78.1 | 81.2 | 80.5 | 80.5 | 78.1 | 78.9 | 78.1 | 80.5 | 78.1 | 80.5 | 80.5 | 79.7 | 78.9 | 78.9 | 77.3 | 78.9 | 78.1 | 77.3 | 78.1 | 74.2 | 70.3 | 78.3 |
-| google/gemini-3.8-flash | 78.1 | 81.3 | 82.8 | 78.1 | 80.5 | 82.8 | 83.6 | 79.7 | 80.5 | 80.5 | 84.4 | 78.1 | 82.8 | 81.2 | 81.2 | 78.1 | 79.7 | 84.4 | 80.5 | 79.7 | 78.9 | 79.7 | 77.3 | 80.5 | 76.6 | 77.3 | 79.9 |
-| gpt-5.6-luna | 73.7 | 73.3 | 79.7 | 74.2 | 74.2 | 76.6 | 76.6 | 78.1 | 75.8 | 77.3 | 75.0 | 75.8 | 74.2 | 77.3 | 77.3 | 81.2 | 77.3 | 80.5 | 77.3 | 73.4 | 75.8 | 72.7 | 69.5 | 70.3 | 73.4 | 53.1 | 74.0 |
-| gpt-5.5 | 71.8 | 75.5 | 79.7 | 73.4 | 77.3 | 79.7 | 78.9 | 75.0 | 74.2 | 76.6 | 78.1 | 75.0 | 74.2 | 78.9 | 74.2 | 77.3 | 75.8 | 80.5 | 75.0 | 71.1 | 74.2 | 73.4 | 70.3 | 70.3 | 68.8 | 61.7 | 74.0 |
+Use `data/benchmark` as the dataset directory. Image paths are relative to the evaluation-record file. No separate download is required.
 
-## Dataset distribution
+## Evaluation
 
-| Quantity | Count |
-| --- | ---: |
-| Seed questions | 128 |
-| Languages | 24 |
-| Language configurations per seed | 70 |
-| QA instances | 8,960 |
-| Localized images | 3,072 |
-| Translation-invariant reference answers | 78 |
-| Language-bearing reference answers | 50 |
+Use Python 3.11 or later. From the repository root:
 
-| Source dataset | Seed questions |
-| --- | ---: |
-| CharXiv | 48 |
-| ChartQA | 12 |
-| ChartQAPro | 27 |
-| MMTU | 9 |
-| TableVQA-Bench | 22 |
-| Visual-TableQA | 10 |
+```sh
+python -m pip install -r requirements.txt
+cp .env.example .env
+```
 
-| Visual category | Seed questions |
-| --- | ---: |
-| Tables | 40 |
-| Line graphs | 34 |
-| Bars & lollipops | 15 |
-| Composite visuals | 14 |
-| Matrices & heatmaps | 6 |
-| Pie & area charts | 6 |
-| Distribution plots | 5 |
-| Scatter & bubble plots | 4 |
-| Field & phase plots | 4 |
+Set these fields in your local `.env`:
 
-The primary visual taxonomy has 40 tables and 88 other visuals. The coarser visual-family labels used by paired analysis have 41 table-family and 87 chart-family seeds, because one table–diagram composite belongs to the table family.
+```dotenv
+OPENAI_API_KEY=YOUR_API_KEY
+OPENAI_BASE_URL=YOUR_API_BASE_URL
+OPENAI_MODEL=YOUR_IMAGE_CAPABLE_MODEL
+JUDGE_API_KEY=YOUR_JUDGE_API_KEY
+JUDGE_BASE_URL=YOUR_JUDGE_API_BASE_URL
+JUDGE_MODEL=YOUR_JUDGE_MODEL
+```
 
-![Visual type distribution](figures/visual_type_distribution.png)
+The inference endpoint must support the Responses API with image input. The judge uses text-only equivalence adjudication. Blank `JUDGE_*` fields inherit the corresponding `OPENAI_*` settings. Configure endpoints and credentials yourself; keep `.env` local.
 
-![Language configurations](figures/language_pair_coverage.png)
+Run a smoke test, then resume the same directory for the full evaluation:
 
-## Paired visual-language sensitivity
+```sh
+python -m scripts.evaluation.run --dataset data/benchmark --output local_runs/model --smoke --workers 1
+python -m scripts.evaluation.run --dataset data/benchmark --output local_runs/model --workers 3 --llm-judge
+```
 
-Changes are percentage points from the same-language baseline to the other 23 visual languages. Flip rates use all 128 × 23 pairs. This locally available analysis covers four models.
+Completed predictions are reused when resuming. Use a new output directory when changing the model or evaluation configuration. Existing dataset images can be evaluated without rendering or font setup.
 
-| Model | Charts Δ EN | Charts Δ ZH | Tables Δ EN | Tables Δ ZH | Correct→Wrong EN | Correct→Wrong ZH | Wrong→Correct EN | Wrong→Correct ZH |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| GPT-6 Astra | -2.7 | -2.2 | -7.4 | -10.3 | 4.5 | 6.4 | 0.3 | 1.6 |
-| Gemini-3.8-Flash | -1.2 | 1.3 | -2.2 | -3.0 | 3.2 | 2.9 | 1.7 | 2.9 |
-| GPT-5.6-Sol | -2.2 | -1.4 | -3.3 | -3.9 | 4.4 | 6.2 | 1.9 | 4.0 |
-| GPT-5.6-Luna | -4.4 | -0.9 | -10.5 | 0.3 | 8.5 | 6.4 | 2.1 | 5.8 |
+Predictions and strict-matching scores are saved under `local_runs/model`. Semantic scores are saved under `local_runs/model/llm_judge_text_v2`. LQA uses matching visual and question languages; XQA-EN and XQA-ZH average their respective 23 cross-language configurations. AVG averages all 70 configurations. Exact matches are accepted directly; other completed answers are checked by the configured judge. Failed requests and unconfirmed equivalence count as incorrect.
 
-![Cross-language coverage](figures/cross_language_coverage.png)
+To score existing predictions or run judging separately:
+
+```sh
+python -m scripts.evaluation.score --run local_runs/model
+python -m scripts.evaluation.judge --run local_runs/model --workers 2
+```
+
+To verify the embedded dataset and file checksums:
+
+```sh
+python scripts/verify_release.py
+```
