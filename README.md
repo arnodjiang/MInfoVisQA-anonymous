@@ -9,34 +9,6 @@ The dataset is included in this repository at [data/benchmark](data/benchmark).
 
 Use `data/benchmark` as the dataset directory. Image paths are relative to the evaluation-record file. No separate download is required.
 
-## Translation
-
-Benchmark translation uses **Google Translate API (Google Cloud Translation Basic v2, NMT)** for visual labels, question/answer templates and source-context prose. The LLM translator is retained only as an optional backend.
-
-Create a local `.env` from the template if it does not already exist:
-
-```sh
-cp -n .env.example .env
-```
-
-Edit the repository-root `.env` and fill `GOOGLE_TRANSLATE_API_KEY` with your own Google Cloud API key. Keep existing model credentials when editing an existing file. Shell environment variables override `.env`. The key is not bundled; an empty key prevents live Google translation. `.env` is ignored by Git and must remain local.
-
-```dotenv
-TRANSLATION_BACKEND=google
-GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
-GOOGLE_TRANSLATE_ENDPOINT=YOUR_GOOGLE_TRANSLATE_ENDPOINT
-```
-
-Enable Cloud Translation in your Google Cloud project and fill your key locally. Set `GOOGLE_TRANSLATE_ENDPOINT` locally to the Google Cloud Translation Basic v2 translate endpoint; the repository contains only a placeholder. Numerical tokens and label references are protected; dictionary keys, paragraph boundaries and table structure are retained. Translation requests use text only. Credentials are not saved in artifacts.
-
-For a JSON tree of text labels and QA templates:
-
-```sh
-python -m scripts.translation --input labels_and_qa.json --output local_runs/translation/fr.json --language fr
-```
-
-Use `TRANSLATION_BACKEND=llm` or `--translation-backend llm` to opt into model translation with your `OPENAI_*` settings. Google translation never silently falls back to the LLM. Start a new output revision when changing backends or when old caches lack provider identity. Existing dataset images can be evaluated without running translation or configuring Google credentials.
-
 ## Evaluation
 
 Use Python 3.11 or later. From the repository root:
@@ -55,9 +27,16 @@ OPENAI_MODEL=YOUR_IMAGE_CAPABLE_MODEL
 JUDGE_API_KEY=YOUR_JUDGE_API_KEY
 JUDGE_BASE_URL=YOUR_JUDGE_API_BASE_URL
 JUDGE_MODEL=YOUR_JUDGE_MODEL
+TRANSLATION_BACKEND=google
+GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
+GOOGLE_TRANSLATE_ENDPOINT=YOUR_GOOGLE_TRANSLATE_ENDPOINT
 ```
 
-The inference endpoint must support the Responses API with image input. The judge uses text-only equivalence adjudication. Blank `JUDGE_*` fields inherit the corresponding `OPENAI_*` settings. Configure endpoints and credentials yourself; keep `.env` local.
+The inference endpoint must support the Responses API with image input. The judge uses text-only equivalence adjudication; blank `JUDGE_*` fields inherit the corresponding `OPENAI_*` settings.
+
+Translation uses Google Translate API (Google Cloud Translation Basic v2, NMT) for visual labels, QA templates and source-context prose. Enable Cloud Translation in your Google Cloud project, supply your key and set the Basic v2 translate endpoint locally. Set `TRANSLATION_BACKEND=llm` only to select the optional translator using `OPENAI_*`. Google translation never silently falls back to an LLM. Evaluating the existing dataset does not require Google credentials.
+
+Keep existing credentials when editing `.env`; shell environment variables override its values. Keys are not bundled. Keep `.env` local and excluded from Git. Use a new output revision when changing translation backends or when old caches lack provider identity.
 
 Run a smoke test, then resume the same directory for the full evaluation:
 
