@@ -24,10 +24,10 @@ Edit the repository-root `.env` and fill `GOOGLE_TRANSLATE_API_KEY` with your ow
 ```dotenv
 TRANSLATION_BACKEND=google
 GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
-GOOGLE_TRANSLATE_ENDPOINT=YOUR_GOOGLE_CLOUD_TRANSLATION_BASIC_V2_TRANSLATE_ENDPOINT
+GOOGLE_TRANSLATE_ENDPOINT=https://translation.googleapis.com/language/translate/v2
 ```
 
-Enable Cloud Translation in your Google Cloud project and configure the Basic v2 translate endpoint locally. Numerical tokens and label references are protected; dictionary keys, paragraph boundaries and table structure are retained. Translation requests use text only. Credentials are not saved in artifacts.
+Enable Cloud Translation in your Google Cloud project and fill your key locally. The standard Basic v2 endpoint is included in `.env.example`. Numerical tokens and label references are protected; dictionary keys, paragraph boundaries and table structure are retained. Translation requests use text only. Credentials are not saved in artifacts.
 
 For a JSON tree of text labels and QA templates:
 
