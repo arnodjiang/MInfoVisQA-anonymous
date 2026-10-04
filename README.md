@@ -13,6 +13,14 @@ Use `data/benchmark` as the dataset directory. Image paths are relative to the e
 
 Benchmark translation uses **Google Translate API (Google Cloud Translation Basic v2, NMT)** for visual labels, question/answer templates and source-context prose. The LLM translator is retained only as an optional backend.
 
+Create a local `.env` from the template if it does not already exist:
+
+```sh
+cp -n .env.example .env
+```
+
+Edit the repository-root `.env` and fill `GOOGLE_TRANSLATE_API_KEY` with your own Google Cloud API key. Keep existing model credentials when editing an existing file. Shell environment variables override `.env`. The key is not bundled; an empty key prevents live Google translation. `.env` is ignored by Git and must remain local.
+
 ```dotenv
 TRANSLATION_BACKEND=google
 GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
@@ -35,7 +43,7 @@ Use Python 3.11 or later. From the repository root:
 
 ```sh
 python -m pip install -r requirements.txt
-cp .env.example .env
+cp -n .env.example .env
 ```
 
 Set these fields in your local `.env`:
