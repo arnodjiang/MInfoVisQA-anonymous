@@ -43,6 +43,9 @@ class API:
         self.circuit_open = False
 
     def call(self, stage, case_id, prompt, payload, image=None, max_tokens=18000):
+        from scripts.translation import backend, translation_stage, GoogleTranslator
+        if translation_stage(stage) and backend(self.config) == 'google':
+            return GoogleTranslator(self.root, self.config).call(stage, case_id, prompt, payload, image, max_tokens)
         for retry_index in range(11):
             try:
                 return self._call_once(stage, case_id, prompt, payload, image, max_tokens, retry_index)

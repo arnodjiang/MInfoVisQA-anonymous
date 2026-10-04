@@ -47,6 +47,7 @@ def main():
     p.add_argument('--source', default=str(pipeline.ROOT / 'data/visual_benchmark/final_128_v3'))
     p.add_argument('--query-polish', type=Path, help='Optional reviewed query overlay directory containing queries/<lang>/<case>.json')
     p.add_argument('--stage', choices=['prepare', 'translate', 'render', 'export', 'all'], default='all')
+    p.add_argument('--translation-backend', choices=['google', 'llm'], help='Default: Google Translate API; llm is opt-in')
     p.add_argument('--workers', type=int, default=4)
     p.add_argument('--translation-batch-size', type=int, choices=range(1, 14), help='Override languages per translation request; use 1 for repeated gateway timeouts.')
     p.add_argument('--retry-failed', action='store_true')
@@ -87,6 +88,8 @@ def main():
         for f in (origin / 'locales').glob('*.json'):
             if (target / 'locales' / f.name).exists():
                 continue
+            if f.stem != 'en' and read(f).get('translation_backend') != b.translation_backend:
+                continue
             loc = read(f)
             polished = Path(a.query_polish) / 'queries' / f.stem / (cid + '.json') if a.query_polish else None
             if polished is not None and polished.exists():
@@ -102,7 +105,7 @@ def main():
     pd.mkdir(exist_ok=True)
     extra = '\nNative-language fluency requirements (apply the relevant language):\n' + '\n'.join((k + ': ' + v for (k, v) in RULES.items()))
     prompts.TRANSLATE += extra + '\nKeep the QA concise and fluent after binding labels; avoid duplicated temporal particles. Preserve time-point versus interval semantics. Do not append reply-language instructions.'
-    (pd / 'translation.txt').write_text(prompts.TRANSLATE)
+    (pd / 'translation.txt').write_text(prompts.TRANSLATE if b.translation_backend == 'llm' else 'Google Cloud Translation Basic v2 NMT; numerical tokens and label references are protected.')
     for (l, rule) in dict(ORIGINAL_QUERY_RULES, **RULES).items():
         (pd / (l + '_query_copyedit.txt')).write_text(COMMON + '\nTarget language: ' + pipeline.LANGUAGES[l] + '\n' + rule)
     cases = [c for c in b.cases if not a.ids or c['id'] in a.ids.split(',')]

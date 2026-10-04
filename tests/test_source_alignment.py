@@ -107,6 +107,7 @@ class SourceAlignmentTests(unittest.TestCase):
             runner.identities = {c['id']: i}
             result = {'locales': {'zh': dict(labels={'k': '源标签'}, question='[[k]]是什么？', answer_template='源答案')}}
             from unittest.mock import Mock
+            runner.translation_backend = 'google'
             runner.api = Mock()
             runner.api.call.return_value = (result, 'key')
             runner.log = Mock()

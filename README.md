@@ -9,6 +9,26 @@ The dataset is included in this repository at [data/benchmark](data/benchmark).
 
 Use `data/benchmark` as the dataset directory. Image paths are relative to the evaluation-record file. No separate download is required.
 
+## Translation
+
+Benchmark translation uses **Google Translate API (Google Cloud Translation Basic v2, NMT)** for visual labels, question/answer templates and source-context prose. The LLM translator is retained only as an optional backend.
+
+```dotenv
+TRANSLATION_BACKEND=google
+GOOGLE_TRANSLATE_API_KEY=YOUR_GOOGLE_CLOUD_API_KEY
+GOOGLE_TRANSLATE_ENDPOINT=YOUR_GOOGLE_CLOUD_TRANSLATION_BASIC_V2_TRANSLATE_ENDPOINT
+```
+
+Enable Cloud Translation in your Google Cloud project and configure the Basic v2 translate endpoint locally. Numerical tokens and label references are protected; dictionary keys, paragraph boundaries and table structure are retained. Translation requests use text only. Credentials are not saved in artifacts.
+
+For a JSON tree of text labels and QA templates:
+
+```sh
+python -m scripts.translation --input labels_and_qa.json --output local_runs/translation/fr.json --language fr
+```
+
+Use `TRANSLATION_BACKEND=llm` or `--translation-backend llm` to opt into model translation with your `OPENAI_*` settings. Google translation never silently falls back to the LLM. Start a new output revision when changing backends or when old caches lack provider identity. Existing dataset images can be evaluated without running translation or configuring Google credentials.
+
 ## Evaluation
 
 Use Python 3.11 or later. From the repository root:

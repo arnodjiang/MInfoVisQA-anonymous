@@ -108,7 +108,11 @@ class Builder:
         self.args = args
         self.out = Path(args.output).resolve()
         config = load_openai_config(ROOT)
+        if getattr(args, 'translation_backend', None):
+            config['TRANSLATION_BACKEND'] = args.translation_backend
         self.api = API(self.out, config, args.retry_failed)
+        from scripts.translation import backend
+        self.translation_backend = backend(config)
         self.rt = runtime_module()
         self.lock = threading.Lock()
         self.cases = [json.loads(x) for x in (SOURCE / 'candidates.jsonl').read_text().splitlines()]
@@ -271,6 +275,9 @@ class Builder:
             qa = read(folder / 'qa.json')
             for path in (folder / 'locales').glob('*.json'):
                 verify_locale(read(path), spec, qa, binding)
+                if path.stem != 'en':
+                    from scripts.translation import ensure_backend
+                    ensure_backend(read(path), self.translation_backend)
             chars = sum((len(v) for v in spec['labels'].values()))
             batch_size = 5 if chars < 900 else 3 if chars < 2200 else 2 if chars < 4000 else 1
             if getattr(self.args, 'translation_batch_size', None):
@@ -310,6 +317,8 @@ class Builder:
             for name in ('question', 'answer_template'):
                 if not isinstance(loc.get(name), str) or sorted(placeholder_keys(loc[name])) != sorted(placeholder_keys(qa[name])):
                     raise ValueError('translation_reference_mismatch:' + lang + ':' + name)
+            loc['translation_backend'] = self.translation_backend
+            loc['translation_model'] = 'nmt' if self.translation_backend == 'google' else self.api.config['OPENAI_MODEL']
             loc['request_sha256'] = key
             loc['input_binding'] = locale_parent(spec, qa, binding)
         for lang in languages:
@@ -386,6 +395,7 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', default=str(DEFAULT_OUT))
     parser.add_argument('--stage', choices=['prepare', 'recovery', 'qa', 'translate', 'render', 'all'], default='all')
+    parser.add_argument('--translation-backend', choices=['google', 'llm'], help='Default: Google Translate API; llm is opt-in')
     parser.add_argument('--workers', type=int, default=6)
     parser.add_argument('--limit', type=int)
     parser.add_argument('--ids', help='comma-separated IDs for targeted repairs')

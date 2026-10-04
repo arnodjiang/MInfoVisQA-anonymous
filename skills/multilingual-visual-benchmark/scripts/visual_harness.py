@@ -59,6 +59,14 @@ class CachedTranslator:
     def translate(self, source, language):
         if self.fixtures is not None:
             return validate_locale(source, copy.deepcopy(self.fixtures[language]))
+        project = HERE.parents[2]
+        if str(project) not in sys.path:
+            sys.path.insert(0, str(project))
+        from scripts.translation import load_config, backend, google_tree
+        config = load_config(project)
+        if backend(config) == 'google':
+            (translated, _) = google_tree(self.cache, config, 'visual_harness', source, language)
+            return validate_locale(source, translated)
         from openai import OpenAI
         model = os.environ.get('OPENAI_MODEL')
         key = os.environ.get('OPENAI_API_KEY')

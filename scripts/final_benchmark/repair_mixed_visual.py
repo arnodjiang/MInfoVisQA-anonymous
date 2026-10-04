@@ -101,6 +101,7 @@ def repair_translations(b):
         for l in batch:
             loc = result['locales'][l]
             loc['request_sha256'] = key
+            loc['translation_backend'] = b.translation_backend
             loc['input_binding'] = locale_parent(spec, qa, b.source_binding(CASE))
             verify_locale(loc, spec, qa, b.source_binding(CASE))
             if any((not isinstance(v, str) or not v.strip() for v in loc['labels'].values())):
