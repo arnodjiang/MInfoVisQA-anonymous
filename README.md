@@ -1,5 +1,11 @@
 # MInfoVisQA
 
+[![Multilingual visual question answering demo](assets/demo/preview.gif)](assets/demo/anonymous-visual-qa-demo.mp4)
+
+**[▶ Watch the 46-second demo](assets/demo/anonymous-visual-qa-demo.mp4)**
+
+The same information in different languages: real chart and visual-table examples, a recorded model-answer comparison, and performance across 24 languages. The paired example illustrates one observed outcome, not a general language ranking.
+
 ## Dataset
 
 The dataset is included in this repository at [data/benchmark](data/benchmark).
